@@ -1,0 +1,14 @@
+HistoryId: MCID_645cd30afefa5a162e3432b5
+QueryKey: 7
+ReleaseType: GenBank
+FileType: FEATURES
+Flat: true
+
+Query title: Select 8 document(s)
+    
+Search results count: 8
+Entries to download: 8
+
+FEATURES files in archive: 8
+Total size (bytes): 6111682
+Total time: 1.75 seconds

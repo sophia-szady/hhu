@@ -1,0 +1,2934 @@
+Reading '/home/sophia/.cpan/Metadata'
+  Database was generated on Mon, 12 Jun 2023 12:17:02 GMT
+Running install for module 'HTML::Tree'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/K/KE/KENTNL/HTML-Tree-5.07.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/K/KE/KENTNL/CHECKSUMS
+Checksum for /home/sophia/.cpan/sources/authors/id/K/KE/KENTNL/HTML-Tree-5.07.tar.gz ok
+Configuring K/KE/KENTNL/HTML-Tree-5.07.tar.gz with Build.PL
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'HTML-Tree' version '5.07'
+  KENTNL/HTML-Tree-5.07.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Build.PL -- OK
+Running Build for K/KE/KENTNL/HTML-Tree-5.07.tar.gz
+---- Unsatisfied dependencies detected during ----
+----       KENTNL/HTML-Tree-5.07.tar.gz       ----
+    HTML::Entities [requires]
+    HTML::FormatText [requires,optional]
+    HTML::Parser [requires]
+    HTML::Tagset [requires]
+    LWP::UserAgent [requires,optional]
+    Test::Fatal [build_requires]
+Running install for module 'HTML::Entities'
+Checksum for /home/sophia/.cpan/sources/authors/id/O/OA/OALDERS/HTML-Parser-3.81.tar.gz ok
+Configuring O/OA/OALDERS/HTML-Parser-3.81.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTML::Parser
+Writing MYMETA.yml and MYMETA.json
+  OALDERS/HTML-Parser-3.81.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for O/OA/OALDERS/HTML-Parser-3.81.tar.gz
+---- Unsatisfied dependencies detected during ----
+----      OALDERS/HTML-Parser-3.81.tar.gz     ----
+    HTML::Tagset [requires]
+    HTTP::Headers [requires]
+    URI [requires]
+    URI::URL [requires]
+Running install for module 'HTML::Tagset'
+Checksum for /home/sophia/.cpan/sources/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz ok
+Configuring P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTML::Tagset
+Writing MYMETA.yml and MYMETA.json
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
+cp Tagset.pm blib/lib/HTML/Tagset.pm
+Manifying 1 pod document
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00_about_verbose.t .. ok
+t/01_old_junk.t ....... ok
+t/pod.t ............... skipped: Test::Pod 1.14 required for testing POD
+All tests successful.
+Files=3, Tests=3,  0 wallclock secs ( 0.04 usr  0.00 sys +  0.07 cusr  0.01 csys =  0.12 CPU)
+Result: PASS
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/HTML'
+mkdir /usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/HTML: Permission denied at /usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils/Install.pm line 477.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:702: pure_site_install] Error 13
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+Running install for module 'HTTP::Headers'
+Checksum for /home/sophia/.cpan/sources/authors/id/O/OA/OALDERS/HTTP-Message-6.44.tar.gz ok
+Configuring O/OA/OALDERS/HTTP-Message-6.44.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::Message
+Writing MYMETA.yml and MYMETA.json
+  OALDERS/HTTP-Message-6.44.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for O/OA/OALDERS/HTTP-Message-6.44.tar.gz
+---- Unsatisfied dependencies detected during ----
+----     OALDERS/HTTP-Message-6.44.tar.gz     ----
+    Clone [requires]
+    Encode [requires]
+    Encode::Locale [requires]
+    HTTP::Date [requires]
+    IO::Compress::Brotli [requires,optional]
+    IO::HTML [requires]
+    IO::Uncompress::Brotli [requires,optional]
+    LWP::MediaTypes [requires]
+    Test::Needs [build_requires]
+    URI [requires]
+    URI::URL [requires]
+Running install for module 'Clone'
+Checksum for /home/sophia/.cpan/sources/authors/id/G/GA/GARU/Clone-0.46.tar.gz ok
+Configuring G/GA/GARU/Clone-0.46.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Clone
+Writing MYMETA.yml and MYMETA.json
+  GARU/Clone-0.46.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for G/GA/GARU/Clone-0.46.tar.gz
+---- Unsatisfied dependencies detected during ----
+----          GARU/Clone-0.46.tar.gz          ----
+    B::COW [build_requires]
+Running install for module 'B::COW'
+Checksum for /home/sophia/.cpan/sources/authors/id/A/AT/ATOOMIC/B-COW-0.007.tar.gz ok
+Configuring A/AT/ATOOMIC/B-COW-0.007.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for B::COW
+Writing MYMETA.yml and MYMETA.json
+  ATOOMIC/B-COW-0.007.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for A/AT/ATOOMIC/B-COW-0.007.tar.gz
+cp lib/B/COW.pm blib/lib/B/COW.pm
+Running Mkbootstrap for COW ()
+chmod 644 "COW.bs"
+"/usr/local/anaconda2/envs/py36/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- COW.bs blib/arch/auto/B/COW/COW.bs 644
+"/usr/local/anaconda2/envs/py36/bin/perl" "/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils/xsubpp"  -typemap '/usr/local/anaconda2/envs/py36/lib/5.26.2/ExtUtils/typemap'  COW.xs > COW.xsc
+mv COW.xsc COW.c
+/usr/local/anaconda2/envs/py36/bin/..//bin/x86_64-conda-linux-gnu-gcc -c   -D_REENTRANT -D_GNU_SOURCE --sysroot=/usr/local/anaconda2/envs/py36/bin/..//x86_64-conda-linux-gnu/sysroot -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -O2   -DVERSION=\"0.007\" -DXS_VERSION=\"0.007\" -fPIC --sysroot=/usr/local/anaconda2/envs/py36/bin/..//x86_64-conda-linux-gnu/sysroot "-I/usr/local/anaconda2/envs/py36/lib/5.26.2/x86_64-linux-thread-multi/CORE"   COW.c
+  ATOOMIC/B-COW-0.007.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- NOT OK
+  GARU/Clone-0.46.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Clone-0.46-5
+  GARU/Clone-0.46.tar.gz
+  Has already been prepared
+Running make for G/GA/GARU/Clone-0.46.tar.gz
+Warning: Prerequisite 'B::COW => 0.004' for 'GARU/Clone-0.46.tar.gz' failed when processing 'ATOOMIC/B-COW-0.007.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+cp Clone.pm blib/lib/Clone.pm
+AutoSplitting blib/lib/Clone.pm (blib/lib/auto/Clone)
+Running Mkbootstrap for Clone ()
+chmod 644 "Clone.bs"
+"/usr/local/anaconda2/envs/py36/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Clone.bs blib/arch/auto/Clone/Clone.bs 644
+"/usr/local/anaconda2/envs/py36/bin/perl" "/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils/xsubpp"  -typemap '/usr/local/anaconda2/envs/py36/lib/5.26.2/ExtUtils/typemap'  Clone.xs > Clone.xsc
+mv Clone.xsc Clone.c
+/usr/local/anaconda2/envs/py36/bin/..//bin/x86_64-conda-linux-gnu-gcc -c   -D_REENTRANT -D_GNU_SOURCE --sysroot=/usr/local/anaconda2/envs/py36/bin/..//x86_64-conda-linux-gnu/sysroot -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -O3   -DVERSION=\"0.46\" -DXS_VERSION=\"0.46\" -fPIC --sysroot=/usr/local/anaconda2/envs/py36/bin/..//x86_64-conda-linux-gnu/sysroot "-I/usr/local/anaconda2/envs/py36/lib/5.26.2/x86_64-linux-thread-multi/CORE"   Clone.c
+  GARU/Clone-0.46.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- NOT OK
+Running install for module 'Encode'
+Checksum for /home/sophia/.cpan/sources/authors/id/D/DA/DANKOGAI/Encode-3.19.tar.gz ok
+Configuring D/DA/DANKOGAI/Encode-3.19.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing MYMETA.yml and MYMETA.json
+Writing MYMETA.yml and MYMETA.json
+Writing MYMETA.yml and MYMETA.json
+Writing MYMETA.yml and MYMETA.json
+Writing MYMETA.yml and MYMETA.json
+Writing MYMETA.yml and MYMETA.json
+Writing MYMETA.yml and MYMETA.json
+Writing MYMETA.yml and MYMETA.json
+Generating a Unix-style Makefile
+Writing Makefile for Encode
+Writing MYMETA.yml and MYMETA.json
+  DANKOGAI/Encode-3.19.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for D/DA/DANKOGAI/Encode-3.19.tar.gz
+cp lib/Encode/Encoding.pm blib/lib/Encode/Encoding.pm
+cp Encode.pm blib/lib/Encode.pm
+cp Encode/Makefile_PL.e2x blib/lib/Encode/Makefile_PL.e2x
+cp lib/Encode/Guess.pm blib/lib/Encode/Guess.pm
+cp lib/Encode/JP/H2Z.pm blib/lib/Encode/JP/H2Z.pm
+cp lib/Encode/MIME/Header/ISO_2022_JP.pm blib/lib/Encode/MIME/Header/ISO_2022_JP.pm
+cp Encode/encode.h blib/lib/Encode/encode.h
+cp lib/Encode/MIME/Header.pm blib/lib/Encode/MIME/Header.pm
+cp lib/Encode/Supported.pod blib/lib/Encode/Supported.pod
+cp lib/Encode/PerlIO.pod blib/lib/Encode/PerlIO.pod
+cp Encode/Changes.e2x blib/lib/Encode/Changes.e2x
+cp lib/Encode/JP/JIS7.pm blib/lib/Encode/JP/JIS7.pm
+cp lib/Encode/GSM0338.pm blib/lib/Encode/GSM0338.pm
+cp lib/Encode/CJKConstants.pm blib/lib/Encode/CJKConstants.pm
+cp lib/Encode/Encoder.pm blib/lib/Encode/Encoder.pm
+cp Encode/_T.e2x blib/lib/Encode/_T.e2x
+cp Encode/ConfigLocal_PM.e2x blib/lib/Encode/ConfigLocal_PM.e2x
+cp lib/Encode/CN/HZ.pm blib/lib/Encode/CN/HZ.pm
+cp lib/Encode/MIME/Name.pm blib/lib/Encode/MIME/Name.pm
+cp lib/Encode/Config.pm blib/lib/Encode/Config.pm
+cp lib/Encode/Alias.pm blib/lib/Encode/Alias.pm
+cp Encode/_PM.e2x blib/lib/Encode/_PM.e2x
+cp lib/Encode/KR/2022_KR.pm blib/lib/Encode/KR/2022_KR.pm
+cp Encode/README.e2x blib/lib/Encode/README.e2x
+cp lib/Encode/Unicode/UTF7.pm blib/lib/Encode/Unicode/UTF7.pm
+cp encoding.pm blib/lib/encoding.pm
+make[1]: Entering directory '/home/sophia/.cpan/build/Encode-3.19-5/Byte'
+cp Byte.pm ../blib/lib/Encode/Byte.pm
+Running Mkbootstrap for Byte ()
+chmod 644 "Byte.bs"
+"/usr/local/anaconda2/envs/py36/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Byte.bs ../blib/arch/auto/Encode/Byte/Byte.bs 644
+"/usr/local/anaconda2/envs/py36/bin/perl"  ../bin/enc2xs -"Q" -"O" -o byte_t.c -f byte_t.fnm
+Reading iso-8859-2 (iso-8859-2)
+Reading iso-8859-3 (iso-8859-3)
+Reading iso-8859-4 (iso-8859-4)
+Reading iso-8859-5 (iso-8859-5)
+Reading iso-8859-6 (iso-8859-6)
+Reading iso-8859-7 (iso-8859-7)
+Reading iso-8859-8 (iso-8859-8)
+Reading iso-8859-9 (iso-8859-9)
+Reading iso-8859-10 (iso-8859-10)
+Reading iso-8859-11 (iso-8859-11)
+Reading iso-8859-13 (iso-8859-13)
+Reading iso-8859-14 (iso-8859-14)
+Reading iso-8859-15 (iso-8859-15)
+Reading iso-8859-16 (iso-8859-16)
+Reading AdobeStandardEncoding (AdobeStandardEncoding)
+Reading cp1006 (cp1006)
+Reading cp1250 (cp1250)
+Reading cp1251 (cp1251)
+Reading cp1253 (cp1253)
+Reading cp1254 (cp1254)
+Reading cp1255 (cp1255)
+Reading cp1256 (cp1256)
+Reading cp1257 (cp1257)
+Reading cp1258 (cp1258)
+Reading cp424 (cp424)
+Reading cp437 (cp437)
+Reading cp737 (cp737)
+Reading cp775 (cp775)
+Reading cp850 (cp850)
+Reading cp852 (cp852)
+Reading cp855 (cp855)
+Reading cp856 (cp856)
+Reading cp857 (cp857)
+Reading cp858 (cp858)
+Reading cp860 (cp860)
+Reading cp861 (cp861)
+Reading cp862 (cp862)
+Reading cp863 (cp863)
+Reading cp864 (cp864)
+Reading cp865 (cp865)
+Reading cp866 (cp866)
+Reading cp869 (cp869)
+Reading cp874 (cp874)
+Reading hp-roman8 (hp-roman8)
+Reading koi8-f (koi8-f)
+Reading koi8-r (koi8-r)
+Reading koi8-u (koi8-u)
+Reading MacArabic (MacArabic)
+Reading MacCentralEurRoman (MacCentralEurRoman)
+Reading MacCroatian (MacCroatian)
+Reading MacCyrillic (MacCyrillic)
+Reading MacFarsi (MacFarsi)
+Reading MacGreek (MacGreek)
+Reading MacHebrew (MacHebrew)
+Reading MacIcelandic (MacIcelandic)
+Reading MacRomanian (MacRomanian)
+Reading MacRumanian (MacRumanian)
+Reading MacRoman (MacRoman)
+Reading MacSami (MacSami)
+Reading MacThai (MacThai)
+Reading MacTurkish (MacTurkish)
+Reading MacUkrainian (MacUkrainian)
+Reading nextstep (nextstep)
+Reading viscii (viscii)
+"/usr/local/anaconda2/envs/py36/bin/perl" "/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils/xsubpp"  -nolinenumbers -typemap '/usr/local/anaconda2/envs/py36/lib/5.26.2/ExtUtils/typemap'  Byte.xs > Byte.xsc
+mv Byte.xsc Byte.c
+/usr/local/anaconda2/envs/py36/bin/..//bin/x86_64-conda-linux-gnu-gcc -c -I./Encode  -I../Encode -D_REENTRANT -D_GNU_SOURCE --sysroot=/usr/local/anaconda2/envs/py36/bin/..//x86_64-conda-linux-gnu/sysroot -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -Werror=declaration-after-statement -Wpointer-sign -O2   -DVERSION=\"2.04\" -DXS_VERSION=\"2.04\" -fPIC --sysroot=/usr/local/anaconda2/envs/py36/bin/..//x86_64-conda-linux-gnu/sysroot "-I/usr/local/anaconda2/envs/py36/lib/5.26.2/x86_64-linux-thread-multi/CORE"   Byte.c
+make[1]: Leaving directory '/home/sophia/.cpan/build/Encode-3.19-5/Byte'
+  DANKOGAI/Encode-3.19.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- NOT OK
+Running install for module 'Encode::Locale'
+Checksum for /home/sophia/.cpan/sources/authors/id/G/GA/GAAS/Encode-Locale-1.05.tar.gz ok
+Configuring G/GA/GAAS/Encode-Locale-1.05.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Encode::Locale
+Writing MYMETA.yml and MYMETA.json
+  GAAS/Encode-Locale-1.05.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for G/GA/GAAS/Encode-Locale-1.05.tar.gz
+cp lib/Encode/Locale.pm blib/lib/Encode/Locale.pm
+Manifying 1 pod document
+  GAAS/Encode-Locale-1.05.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/alias.t ...... ok
+t/arg.t ........ ok
+t/env.t ........ ok
+t/tain.t ....... ok
+t/warn_once.t .. ok
+All tests successful.
+
+Test Summary Report
+-------------------
+t/arg.t      (Wstat: 0 Tests: 4 Failed: 0)
+  TODO passed:   1-4
+Files=5, Tests=28,  0 wallclock secs ( 0.05 usr  0.01 sys +  0.31 cusr  0.05 csys =  0.42 CPU)
+Result: PASS
+  GAAS/Encode-Locale-1.05.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Encode'
+mkdir /usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Encode: Permission denied at /usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils/Install.pm line 477.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:731: pure_site_install] Error 13
+  GAAS/Encode-Locale-1.05.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+Running install for module 'HTTP::Date'
+Checksum for /home/sophia/.cpan/sources/authors/id/O/OA/OALDERS/HTTP-Date-6.05.tar.gz ok
+Configuring O/OA/OALDERS/HTTP-Date-6.05.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::Date
+Writing MYMETA.yml and MYMETA.json
+  OALDERS/HTTP-Date-6.05.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for O/OA/OALDERS/HTTP-Date-6.05.tar.gz
+---- Unsatisfied dependencies detected during ----
+----       OALDERS/HTTP-Date-6.05.tar.gz      ----
+    Time::Local [requires]
+    Time::Zone [requires]
+Running install for module 'Time::Local'
+Checksum for /home/sophia/.cpan/sources/authors/id/D/DR/DROLSKY/Time-Local-1.35.tar.gz ok
+Configuring D/DR/DROLSKY/Time-Local-1.35.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Time::Local
+Writing MYMETA.yml and MYMETA.json
+  DROLSKY/Time-Local-1.35.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for D/DR/DROLSKY/Time-Local-1.35.tar.gz
+cp lib/Time/Local.pm blib/lib/Time/Local.pm
+Manifying 1 pod document
+  DROLSKY/Time-Local-1.35.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-report-prereqs.t .. ok
+t/Local.t .............. ok
+All tests successful.
+Files=2, Tests=10,  2 wallclock secs ( 0.46 usr  0.05 sys +  2.30 cusr  0.19 csys =  3.00 CPU)
+Result: PASS
+  DROLSKY/Time-Local-1.35.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Time'
+mkdir /usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Time: Permission denied at /usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils/Install.pm line 477.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:728: pure_site_install] Error 13
+  DROLSKY/Time-Local-1.35.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+Running install for module 'Time::Zone'
+Checksum for /home/sophia/.cpan/sources/authors/id/A/AT/ATOOMIC/TimeDate-2.33.tar.gz ok
+Configuring A/AT/ATOOMIC/TimeDate-2.33.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Date::Parse
+Writing MYMETA.yml and MYMETA.json
+  ATOOMIC/TimeDate-2.33.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for A/AT/ATOOMIC/TimeDate-2.33.tar.gz
+cp lib/Date/Language/Russian_koi8r.pm blib/lib/Date/Language/Russian_koi8r.pm
+cp lib/Date/Language/Somali.pm blib/lib/Date/Language/Somali.pm
+cp lib/Date/Language/Greek.pm blib/lib/Date/Language/Greek.pm
+cp lib/Date/Language/Dutch.pm blib/lib/Date/Language/Dutch.pm
+cp lib/Date/Language/Danish.pm blib/lib/Date/Language/Danish.pm
+cp lib/Date/Language/Russian_cp1251.pm blib/lib/Date/Language/Russian_cp1251.pm
+cp lib/Date/Language/Hungarian.pm blib/lib/Date/Language/Hungarian.pm
+cp lib/Date/Language/Bulgarian.pm blib/lib/Date/Language/Bulgarian.pm
+cp lib/Date/Language/German.pm blib/lib/Date/Language/German.pm
+cp lib/Date/Language/Occitan.pm blib/lib/Date/Language/Occitan.pm
+cp lib/Date/Language/Gedeo.pm blib/lib/Date/Language/Gedeo.pm
+cp lib/Date/Format.pm blib/lib/Date/Format.pm
+cp lib/Date/Language.pm blib/lib/Date/Language.pm
+cp lib/Date/Language/Norwegian.pm blib/lib/Date/Language/Norwegian.pm
+cp lib/TimeDate.pm blib/lib/TimeDate.pm
+cp lib/Date/Language/Sidama.pm blib/lib/Date/Language/Sidama.pm
+cp lib/Date/Language/Italian.pm blib/lib/Date/Language/Italian.pm
+cp lib/Date/Language/Icelandic.pm blib/lib/Date/Language/Icelandic.pm
+cp lib/Time/Zone.pm blib/lib/Time/Zone.pm
+cp lib/Date/Language/Swedish.pm blib/lib/Date/Language/Swedish.pm
+cp lib/Date/Language/Amharic.pm blib/lib/Date/Language/Amharic.pm
+cp lib/Date/Language/TigrinyaEthiopian.pm blib/lib/Date/Language/TigrinyaEthiopian.pm
+cp lib/Date/Language/TigrinyaEritrean.pm blib/lib/Date/Language/TigrinyaEritrean.pm
+cp lib/Date/Language/Turkish.pm blib/lib/Date/Language/Turkish.pm
+cp lib/Date/Language/Spanish.pm blib/lib/Date/Language/Spanish.pm
+cp lib/Date/Language/Russian.pm blib/lib/Date/Language/Russian.pm
+cp lib/Date/Language/French.pm blib/lib/Date/Language/French.pm
+cp lib/Date/Language/Chinese_GB.pm blib/lib/Date/Language/Chinese_GB.pm
+cp lib/Date/Language/Afar.pm blib/lib/Date/Language/Afar.pm
+cp lib/Date/Language/Finnish.pm blib/lib/Date/Language/Finnish.pm
+cp lib/Date/Language/Romanian.pm blib/lib/Date/Language/Romanian.pm
+cp lib/Date/Language/Czech.pm blib/lib/Date/Language/Czech.pm
+cp lib/Date/Parse.pm blib/lib/Date/Parse.pm
+cp lib/Date/Language/Austrian.pm blib/lib/Date/Language/Austrian.pm
+cp lib/Date/Language/Brazilian.pm blib/lib/Date/Language/Brazilian.pm
+cp lib/Date/Language/English.pm blib/lib/Date/Language/English.pm
+cp lib/Date/Language/Oromo.pm blib/lib/Date/Language/Oromo.pm
+cp lib/Date/Language/Chinese.pm blib/lib/Date/Language/Chinese.pm
+cp lib/Date/Language/Tigrinya.pm blib/lib/Date/Language/Tigrinya.pm
+Manifying 7 pod documents
+  ATOOMIC/TimeDate-2.33.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/cpanrt.t ... ok
+t/date.t ..... ok
+t/format.t ... ok
+t/getdate.t .. ok
+t/lang.t ..... ok
+All tests successful.
+Files=5, Tests=509,  0 wallclock secs ( 0.08 usr  0.02 sys +  0.27 cusr  0.05 csys =  0.42 CPU)
+Result: PASS
+  ATOOMIC/TimeDate-2.33.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 7 pod documents
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2'
+Do not have write permissions on '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:768: pure_site_install] Error 13
+  ATOOMIC/TimeDate-2.33.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+----
+  You may have to su to root to install the package
+  (Or you may want to run something like
+    o conf make_install_make_command 'sudo make'
+  to raise your permissions.  OALDERS/HTTP-Date-6.05.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Date-6.05-5
+  OALDERS/HTTP-Date-6.05.tar.gz
+  Has already been prepared
+Running make for O/OA/OALDERS/HTTP-Date-6.05.tar.gz
+cp lib/HTTP/Date.pm blib/lib/HTTP/Date.pm
+Manifying 1 pod document
+  OALDERS/HTTP-Date-6.05.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-compile.t ......... ok
+t/00-report-prereqs.t .. ok
+t/date.t ............... ok
+All tests successful.
+Files=3, Tests=138,  0 wallclock secs ( 0.05 usr  0.01 sys +  0.29 cusr  0.05 csys =  0.40 CPU)
+Result: PASS
+  OALDERS/HTTP-Date-6.05.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/HTTP'
+mkdir /usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/HTTP: Permission denied at /usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils/Install.pm line 477.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:735: pure_site_install] Error 13
+  OALDERS/HTTP-Date-6.05.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+Running install for module 'IO::HTML'
+Checksum for /home/sophia/.cpan/sources/authors/id/C/CJ/CJM/IO-HTML-1.004.tar.gz ok
+Configuring C/CJ/CJM/IO-HTML-1.004.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for IO::HTML
+Writing MYMETA.yml and MYMETA.json
+  CJM/IO-HTML-1.004.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for C/CJ/CJM/IO-HTML-1.004.tar.gz
+cp lib/IO/HTML.pm blib/lib/IO/HTML.pm
+Manifying 1 pod document
+  CJM/IO-HTML-1.004.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-all_prereqs.t .. ok
+t/00-load.t ......... ok
+t/10-find.t ......... ok
+t/20-open.t ......... ok
+t/30-outfile.t ...... ok
+All tests successful.
+Files=5, Tests=165,  1 wallclock secs ( 0.05 usr  0.01 sys +  0.30 cusr  0.06 csys =  0.42 CPU)
+Result: PASS
+  CJM/IO-HTML-1.004.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/IO'
+Do not have write permissions on '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/IO'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:726: pure_site_install] Error 13
+  CJM/IO-HTML-1.004.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+----
+  You may have to su to root to install the package
+  (Or you may want to run something like
+    o conf make_install_make_command 'sudo make'
+  to raise your permissions.Running install for module 'LWP::MediaTypes'
+Checksum for /home/sophia/.cpan/sources/authors/id/O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz ok
+Configuring O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for LWP::MediaTypes
+Writing MYMETA.yml and MYMETA.json
+  OALDERS/LWP-MediaTypes-6.04.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz
+---- Unsatisfied dependencies detected during ----
+----    OALDERS/LWP-MediaTypes-6.04.tar.gz    ----
+    Test::Fatal [build_requires]
+Running install for module 'Test::Fatal'
+Checksum for /home/sophia/.cpan/sources/authors/id/R/RJ/RJBS/Test-Fatal-0.017.tar.gz ok
+Configuring R/RJ/RJBS/Test-Fatal-0.017.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::Fatal
+Writing MYMETA.yml and MYMETA.json
+  RJBS/Test-Fatal-0.017.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for R/RJ/RJBS/Test-Fatal-0.017.tar.gz
+cp lib/Test/Fatal.pm blib/lib/Test/Fatal.pm
+Manifying 1 pod document
+  RJBS/Test-Fatal-0.017.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-report-prereqs.t .. ok
+t/basic.t .............. ok
+t/like-exception.t ..... ok
+t/todo.t ............... ok
+All tests successful.
+Files=4, Tests=18,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.33 cusr  0.05 csys =  0.42 CPU)
+Result: PASS
+  RJBS/Test-Fatal-0.017.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Test'
+Do not have write permissions on '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Test'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:732: pure_site_install] Error 13
+  RJBS/Test-Fatal-0.017.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+----
+  You may have to su to root to install the package
+  (Or you may want to run something like
+    o conf make_install_make_command 'sudo make'
+  to raise your permissions.  OALDERS/LWP-MediaTypes-6.04.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/LWP-MediaTypes-6.04-5
+  OALDERS/LWP-MediaTypes-6.04.tar.gz
+  Has already been prepared
+Running make for O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz
+cp lib/LWP/media.types blib/lib/LWP/media.types
+cp lib/LWP/MediaTypes.pm blib/lib/LWP/MediaTypes.pm
+Manifying 1 pod document
+  OALDERS/LWP-MediaTypes-6.04.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-report-prereqs.t .. ok
+t/mediatypes.t ......... ok
+All tests successful.
+Files=2, Tests=47,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.26 cusr  0.05 csys =  0.35 CPU)
+Result: PASS
+  OALDERS/LWP-MediaTypes-6.04.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/LWP'
+mkdir /usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/LWP: Permission denied at /usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils/Install.pm line 477.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:736: pure_site_install] Error 13
+  OALDERS/LWP-MediaTypes-6.04.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+Running install for module 'Test::Needs'
+Checksum for /home/sophia/.cpan/sources/authors/id/H/HA/HAARG/Test-Needs-0.002010.tar.gz ok
+Configuring H/HA/HAARG/Test-Needs-0.002010.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::Needs
+Writing MYMETA.yml and MYMETA.json
+  HAARG/Test-Needs-0.002010.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for H/HA/HAARG/Test-Needs-0.002010.tar.gz
+cp lib/Test/Needs.pm blib/lib/Test/Needs.pm
+Manifying 1 pod document
+  HAARG/Test-Needs-0.002010.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/find_missing.t .... ok
+t/numify_version.t .. ok
+t/standalone.t ...... ok
+  HAARG/Test-Needs-0.002010.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports HAARG/Test-Needs-0.002010.tar.gz
+Running install for module 'URI'
+Checksum for /home/sophia/.cpan/sources/authors/id/S/SI/SIMBABQUE/URI-5.19.tar.gz ok
+Configuring S/SI/SIMBABQUE/URI-5.19.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for URI
+Writing MYMETA.yml and MYMETA.json
+  SIMBABQUE/URI-5.19.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for S/SI/SIMBABQUE/URI-5.19.tar.gz
+---- Unsatisfied dependencies detected during ----
+----         SIMBABQUE/URI-5.19.tar.gz        ----
+    Test::Needs [build_requires]
+    Test::Warnings [build_requires]
+Running install for module 'Test::Needs'
+  HAARG/Test-Needs-0.002010.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Test-Needs-0.002010-5
+  HAARG/Test-Needs-0.002010.tar.gz
+  Has already been prepared
+  HAARG/Test-Needs-0.002010.tar.gz
+  Has already been made
+  HAARG/Test-Needs-0.002010.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'Test::Warnings'
+Checksum for /home/sophia/.cpan/sources/authors/id/E/ET/ETHER/Test-Warnings-0.031.tar.gz ok
+Configuring E/ET/ETHER/Test-Warnings-0.031.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::Warnings
+Writing MYMETA.yml and MYMETA.json
+  ETHER/Test-Warnings-0.031.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for E/ET/ETHER/Test-Warnings-0.031.tar.gz
+cp lib/Test/Warnings.pm blib/lib/Test/Warnings.pm
+Manifying 1 pod document
+  ETHER/Test-Warnings-0.031.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-report-prereqs.t ................. ok
+t/01-basic.t .......................... ok
+t/02-done_testing.t ................... ok
+t/03-subtest.t ........................ ok
+t/04-no-tests.t ....................... ok
+t/05-no-end-block.t ................... ok
+t/06-skip-all.t ....................... skipped: Need Does::Not::Exist::671844693440111 to continue!
+t/07-no_plan.t ........................ ok
+t/08-use-if.t ......................... ok
+t/09-warnings-contents.t .............. ok
+  ETHER/Test-Warnings-0.031.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports ETHER/Test-Warnings-0.031.tar.gz
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/URI-5.19-5
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been prepared
+Running make for S/SI/SIMBABQUE/URI-5.19.tar.gz
+Warning: Prerequisite 'Test::Needs => 0' for 'SIMBABQUE/URI-5.19.tar.gz' failed when processing 'HAARG/Test-Needs-0.002010.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'Test::Warnings => 0' for 'SIMBABQUE/URI-5.19.tar.gz' failed when processing 'ETHER/Test-Warnings-0.031.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+cp lib/URI/Escape.pm blib/lib/URI/Escape.pm
+cp lib/URI/nntps.pm blib/lib/URI/nntps.pm
+cp lib/URI/_foreign.pm blib/lib/URI/_foreign.pm
+cp lib/URI/file/Mac.pm blib/lib/URI/file/Mac.pm
+cp lib/URI/ldapi.pm blib/lib/URI/ldapi.pm
+cp lib/URI/urn.pm blib/lib/URI/urn.pm
+cp lib/URI/sips.pm blib/lib/URI/sips.pm
+cp lib/URI/Split.pm blib/lib/URI/Split.pm
+cp lib/URI/file/Base.pm blib/lib/URI/file/Base.pm
+cp lib/URI/urn/oid.pm blib/lib/URI/urn/oid.pm
+cp lib/URI/ssh.pm blib/lib/URI/ssh.pm
+cp lib/URI/URL.pm blib/lib/URI/URL.pm
+cp lib/URI/_punycode.pm blib/lib/URI/_punycode.pm
+cp lib/URI/_userpass.pm blib/lib/URI/_userpass.pm
+cp lib/URI/data.pm blib/lib/URI/data.pm
+cp lib/URI/IRI.pm blib/lib/URI/IRI.pm
+cp lib/URI/rtspu.pm blib/lib/URI/rtspu.pm
+cp lib/URI/ftp.pm blib/lib/URI/ftp.pm
+cp lib/URI/rtsp.pm blib/lib/URI/rtsp.pm
+cp lib/URI/mailto.pm blib/lib/URI/mailto.pm
+cp lib/URI/_idna.pm blib/lib/URI/_idna.pm
+cp lib/URI/file/OS2.pm blib/lib/URI/file/OS2.pm
+cp lib/URI/file/QNX.pm blib/lib/URI/file/QNX.pm
+cp lib/URI/ldaps.pm blib/lib/URI/ldaps.pm
+cp lib/URI/_generic.pm blib/lib/URI/_generic.pm
+cp lib/URI/WithBase.pm blib/lib/URI/WithBase.pm
+cp lib/URI/snews.pm blib/lib/URI/snews.pm
+cp lib/URI/_server.pm blib/lib/URI/_server.pm
+cp lib/URI/rlogin.pm blib/lib/URI/rlogin.pm
+cp lib/URI/mms.pm blib/lib/URI/mms.pm
+cp lib/URI/pop.pm blib/lib/URI/pop.pm
+cp lib/URI/Heuristic.pm blib/lib/URI/Heuristic.pm
+cp lib/URI/file.pm blib/lib/URI/file.pm
+cp lib/URI/telnet.pm blib/lib/URI/telnet.pm
+cp lib/URI/file/Unix.pm blib/lib/URI/file/Unix.pm
+cp lib/URI/urn/isbn.pm blib/lib/URI/urn/isbn.pm
+cp lib/URI/nntp.pm blib/lib/URI/nntp.pm
+cp lib/URI/rsync.pm blib/lib/URI/rsync.pm
+cp lib/URI/QueryParam.pm blib/lib/URI/QueryParam.pm
+cp lib/URI/sftp.pm blib/lib/URI/sftp.pm
+cp lib/URI/_login.pm blib/lib/URI/_login.pm
+cp lib/URI/_segment.pm blib/lib/URI/_segment.pm
+cp lib/URI.pm blib/lib/URI.pm
+cp lib/URI/_query.pm blib/lib/URI/_query.pm
+cp lib/URI/_ldap.pm blib/lib/URI/_ldap.pm
+cp lib/URI/tn3270.pm blib/lib/URI/tn3270.pm
+cp lib/URI/http.pm blib/lib/URI/http.pm
+cp lib/URI/file/FAT.pm blib/lib/URI/file/FAT.pm
+cp lib/URI/ldap.pm blib/lib/URI/ldap.pm
+cp lib/URI/gopher.pm blib/lib/URI/gopher.pm
+cp lib/URI/news.pm blib/lib/URI/news.pm
+cp lib/URI/https.pm blib/lib/URI/https.pm
+cp lib/URI/file/Win32.pm blib/lib/URI/file/Win32.pm
+cp lib/URI/sip.pm blib/lib/URI/sip.pm
+Manifying 11 pod documents
+  SIMBABQUE/URI-5.19.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-report-prereqs.t ..... ok
+t/abs.t ................... ok
+t/clone.t ................. ok
+t/cwd.t ................... ok
+t/data.t .................. ok
+t/escape-char.t ........... ok
+t/escape.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/file.t .................. ok
+t/ftp.t ................... ok
+t/generic.t ............... ok
+t/gopher.t ................ ok
+t/heuristic.t ............. ok
+t/http.t .................. ok
+t/idna.t .................. ok
+t/ipv6.t .................. ok
+t/iri.t ................... ok
+t/ldap.t .................. ok
+t/mailto.t ................ ok
+t/mix.t ................... ok
+t/mms.t ................... ok
+t/news.t .................. ok
+t/num_eq.t ................ ok
+t/old-absconf.t ........... ok
+t/old-base.t .............. ok
+t/old-file.t .............. ok
+t/old-relbase.t ........... ok
+t/path-segments.t ......... ok
+t/pop.t ................... ok
+t/punycode.t .............. ok
+t/query-param.t ........... ok
+t/query.t ................. ok
+t/rel.t ................... ok
+t/rfc2732.t ............... ok
+t/roy-test.t .............. ok
+t/rsync.t ................. ok
+t/rtsp.t .................. ok
+t/scheme-exceptions.t ..... ok
+t/sip.t ................... ok
+t/sort-hash-query-form.t .. ok
+t/split.t ................. ok
+t/sq-brackets-legacy.t .... ok
+t/sq-brackets.t ........... ok
+t/storable.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/urn-isbn.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/urn-oid.t ............... ok
+t/userpass.t .............. ok
+t/utf8.t .................. ok
+
+Test Summary Report
+-------------------
+t/escape.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/mailto.t              (Wstat: 0 Tests: 20 Failed: 0)
+  TODO passed:   16
+t/storable.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/urn-isbn.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=47, Tests=697,  4 wallclock secs ( 0.24 usr  0.05 sys +  2.89 cusr  0.60 csys =  3.78 CPU)
+Result: FAIL
+  SIMBABQUE/URI-5.19.tar.gz
+2 dependencies missing (Test::Needs,Test::Warnings); additionally test harness failed
+  /usr/local/anaconda2/envs/py36/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports SIMBABQUE/URI-5.19.tar.gz
+Running install for module 'URI::URL'
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/URI-5.19-5
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been prepared
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been made
+  SIMBABQUE/URI-5.19.tar.gz
+  Won't repeat unsuccessful test during this command
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Message-6.44-5
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been prepared
+Running make for O/OA/OALDERS/HTTP-Message-6.44.tar.gz
+Warning: Prerequisite 'Clone => 0.46' for 'OALDERS/HTTP-Message-6.44.tar.gz' failed when processing 'GARU/Clone-0.46.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'Encode => 3.01' for 'OALDERS/HTTP-Message-6.44.tar.gz' failed when processing 'DANKOGAI/Encode-3.19.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'Test::Needs => 0' for 'OALDERS/HTTP-Message-6.44.tar.gz' failed when processing 'HAARG/Test-Needs-0.002010.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'URI => 1.10' for 'OALDERS/HTTP-Message-6.44.tar.gz' failed when processing 'SIMBABQUE/URI-5.19.tar.gz' with 'make_test => NO 2 dependencies missing (Test::Needs,Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'URI::URL => 0' for 'OALDERS/HTTP-Message-6.44.tar.gz' failed when processing 'SIMBABQUE/URI-5.19.tar.gz' with 'make_test => NO 2 dependencies missing (Test::Needs,Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+---- Unsatisfied dependencies detected during ----
+----     OALDERS/HTTP-Message-6.44.tar.gz     ----
+    IO::Compress::Brotli [requires,optional]
+    IO::Uncompress::Brotli [requires,optional]
+cp lib/HTTP/Response.pm blib/lib/HTTP/Response.pm
+cp lib/HTTP/Request.pm blib/lib/HTTP/Request.pm
+cp lib/HTTP/Headers/Auth.pm blib/lib/HTTP/Headers/Auth.pm
+cp lib/HTTP/Headers.pm blib/lib/HTTP/Headers.pm
+cp lib/HTTP/Headers/ETag.pm blib/lib/HTTP/Headers/ETag.pm
+cp lib/HTTP/Message.pm blib/lib/HTTP/Message.pm
+cp lib/HTTP/Headers/Util.pm blib/lib/HTTP/Headers/Util.pm
+cp lib/HTTP/Request/Common.pm blib/lib/HTTP/Request/Common.pm
+cp lib/HTTP/Status.pm blib/lib/HTTP/Status.pm
+cp lib/HTTP/Config.pm blib/lib/HTTP/Config.pm
+Manifying 10 pod documents
+  OALDERS/HTTP-Message-6.44.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-report-prereqs.t .......... ok
+t/common-req.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/headers-auth.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/headers-etag.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 11/11 subtests 
+t/headers-util.t ............... ok
+t/headers.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 189/189 subtests 
+t/http-config.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/message-brotli.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/message-charset.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/message-decode-brotlibomb.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/message-decode-bzipbomb.t .... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/message-decode-xml.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/message-decode-zipbomb.t ..... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/message-old.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 20/20 subtests 
+t/message-parts.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/message.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 208/208 subtests 
+t/request.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/request_type_with_data.t ..... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/response.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/status-old.t ................. ok
+t/status.t ..................... ok
+
+Test Summary Report
+-------------------
+t/common-req.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/headers-auth.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/headers-etag.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 11 tests but ran 0.
+t/headers.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 189 tests but ran 0.
+t/http-config.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/message-brotli.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/message-charset.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/message-decode-brotlibomb.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/message-decode-bzipbomb.t  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/message-decode-xml.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/message-decode-zipbomb.t   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/message-old.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 20 tests but ran 0.
+t/message-parts.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/message.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 208 tests but ran 0.
+t/request.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/request_type_with_data.t   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/response.t                 (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=21, Tests=78,  2 wallclock secs ( 0.07 usr  0.03 sys +  1.35 cusr  0.31 csys =  1.76 CPU)
+Result: FAIL
+  OALDERS/HTTP-Message-6.44.tar.gz
+4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed
+  /usr/local/anaconda2/envs/py36/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports OALDERS/HTTP-Message-6.44.tar.gz
+Running install for module 'IO::Uncompress::Brotli'
+Checksum for /home/sophia/.cpan/sources/authors/id/M/MG/MGV/IO-Compress-Brotli-0.004001.tar.gz ok
+Configuring M/MG/MGV/IO-Compress-Brotli-0.004001.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for IO::Compress::Brotli
+Writing MYMETA.yml and MYMETA.json
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for M/MG/MGV/IO-Compress-Brotli-0.004001.tar.gz
+---- Unsatisfied dependencies detected during ----
+----  MGV/IO-Compress-Brotli-0.004001.tar.gz  ----
+    File::Slurper [requires]
+Running install for module 'File::Slurper'
+Checksum for /home/sophia/.cpan/sources/authors/id/L/LE/LEONT/File-Slurper-0.014.tar.gz ok
+Configuring L/LE/LEONT/File-Slurper-0.014.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for File::Slurper
+Writing MYMETA.yml and MYMETA.json
+  LEONT/File-Slurper-0.014.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for L/LE/LEONT/File-Slurper-0.014.tar.gz
+---- Unsatisfied dependencies detected during ----
+----      LEONT/File-Slurper-0.014.tar.gz     ----
+    PerlIO::utf8_strict [requires,optional]
+    Test::Warnings [build_requires]
+Running install for module 'Test::Warnings'
+  ETHER/Test-Warnings-0.031.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Test-Warnings-0.031-5
+  ETHER/Test-Warnings-0.031.tar.gz
+  Has already been prepared
+  ETHER/Test-Warnings-0.031.tar.gz
+  Has already been made
+  ETHER/Test-Warnings-0.031.tar.gz
+  Won't repeat unsuccessful test during this command
+  LEONT/File-Slurper-0.014.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/File-Slurper-0.014-5
+  LEONT/File-Slurper-0.014.tar.gz
+  Has already been prepared
+Running make for L/LE/LEONT/File-Slurper-0.014.tar.gz
+Warning: Prerequisite 'Test::Warnings => 0' for 'LEONT/File-Slurper-0.014.tar.gz' failed when processing 'ETHER/Test-Warnings-0.031.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+---- Unsatisfied dependencies detected during ----
+----      LEONT/File-Slurper-0.014.tar.gz     ----
+    PerlIO::utf8_strict [requires,optional]
+cp lib/File/Slurper.pm blib/lib/File/Slurper.pm
+Manifying 1 pod document
+  LEONT/File-Slurper-0.014.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/10-basics.t ........... ok
+t/20-no-side-effects.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/20-no-side-effects.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=2, Tests=7,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.13 cusr  0.03 csys =  0.18 CPU)
+Result: FAIL
+  LEONT/File-Slurper-0.014.tar.gz
+one dependency not OK (Test::Warnings); additionally test harness failed
+  /usr/local/anaconda2/envs/py36/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports LEONT/File-Slurper-0.014.tar.gz
+Running install for module 'PerlIO::utf8_strict'
+Checksum for /home/sophia/.cpan/sources/authors/id/L/LE/LEONT/PerlIO-utf8_strict-0.010.tar.gz ok
+Configuring L/LE/LEONT/PerlIO-utf8_strict-0.010.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for PerlIO::utf8_strict
+Writing MYMETA.yml and MYMETA.json
+  LEONT/PerlIO-utf8_strict-0.010.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for L/LE/LEONT/PerlIO-utf8_strict-0.010.tar.gz
+---- Unsatisfied dependencies detected during ----
+----   LEONT/PerlIO-utf8_strict-0.010.tar.gz  ----
+    Test::Exception [build_requires]
+Running install for module 'Test::Exception'
+Checksum for /home/sophia/.cpan/sources/authors/id/E/EX/EXODIST/Test-Exception-0.43.tar.gz ok
+Configuring E/EX/EXODIST/Test-Exception-0.43.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::Exception
+Writing MYMETA.yml and MYMETA.json
+  EXODIST/Test-Exception-0.43.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for E/EX/EXODIST/Test-Exception-0.43.tar.gz
+---- Unsatisfied dependencies detected during ----
+----    EXODIST/Test-Exception-0.43.tar.gz    ----
+    Sub::Uplevel [requires]
+Running install for module 'Sub::Uplevel'
+Checksum for /home/sophia/.cpan/sources/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz ok
+Configuring D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Sub::Uplevel
+Writing MYMETA.yml and MYMETA.json
+  DAGOLDEN/Sub-Uplevel-0.2800.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz
+cp lib/Sub/Uplevel.pm blib/lib/Sub/Uplevel.pm
+Manifying 1 pod document
+  DAGOLDEN/Sub-Uplevel-0.2800.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-report-prereqs.t ........ ok
+t/01_die_check.t ............. ok
+t/02_uplevel.t ............... ok
+t/03_nested_uplevels.t ....... ok
+t/04_honor_later_override.t .. ok
+t/05_honor_prior_override.t .. ok
+t/06_db_args.t ............... ok
+t/07_uplevel_too_high.t ...... ok
+t/08_exporter.t .............. ok
+t/09_emptylist.t ............. ok
+All tests successful.
+Files=10, Tests=158,  1 wallclock secs ( 0.05 usr  0.02 sys +  0.58 cusr  0.13 csys =  0.78 CPU)
+Result: PASS
+  DAGOLDEN/Sub-Uplevel-0.2800.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Sub'
+Do not have write permissions on '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Sub'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:731: pure_site_install] Error 13
+  DAGOLDEN/Sub-Uplevel-0.2800.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+----
+  You may have to su to root to install the package
+  (Or you may want to run something like
+    o conf make_install_make_command 'sudo make'
+  to raise your permissions.  EXODIST/Test-Exception-0.43.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Test-Exception-0.43-5
+  EXODIST/Test-Exception-0.43.tar.gz
+  Has already been prepared
+Running make for E/EX/EXODIST/Test-Exception-0.43.tar.gz
+cp lib/Test/Exception.pm blib/lib/Test/Exception.pm
+Manifying 1 pod document
+  EXODIST/Test-Exception-0.43.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/caller.t ...... ok
+t/edge-cases.t .. skipped: stuff relating to RT#24678 that I have not fixed yet
+t/Exception.t ... ok
+t/import.t ...... ok
+t/isa.t ......... ok
+t/lives_and.t ... ok
+t/preserve.t .... ok
+t/return.t ...... ok
+t/rt.t .......... ok
+t/stacktrace.t .. ok
+t/throws_ok.t ... ok
+All tests successful.
+
+Test Summary Report
+-------------------
+t/Exception.t (Wstat: 0 Tests: 20 Failed: 0)
+  TODO passed:   20
+Files=11, Tests=53,  0 wallclock secs ( 0.05 usr  0.02 sys +  0.66 cusr  0.18 csys =  0.91 CPU)
+Result: PASS
+  EXODIST/Test-Exception-0.43.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Test'
+Do not have write permissions on '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Test'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:754: pure_site_install] Error 13
+  EXODIST/Test-Exception-0.43.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+----
+  You may have to su to root to install the package
+  (Or you may want to run something like
+    o conf make_install_make_command 'sudo make'
+  to raise your permissions.  LEONT/PerlIO-utf8_strict-0.010.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/PerlIO-utf8_strict-0.010-5
+  LEONT/PerlIO-utf8_strict-0.010.tar.gz
+  Has already been prepared
+Running make for L/LE/LEONT/PerlIO-utf8_strict-0.010.tar.gz
+cp lib/PerlIO/utf8_strict.pm blib/lib/PerlIO/utf8_strict.pm
+Running Mkbootstrap for utf8_strict ()
+chmod 644 "utf8_strict.bs"
+"/usr/local/anaconda2/envs/py36/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- utf8_strict.bs blib/arch/auto/PerlIO/utf8_strict/utf8_strict.bs 644
+"/usr/local/anaconda2/envs/py36/bin/perl" "/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils/xsubpp"  -typemap '/usr/local/anaconda2/envs/py36/lib/5.26.2/ExtUtils/typemap'  utf8_strict.xs > utf8_strict.xsc
+mv utf8_strict.xsc utf8_strict.c
+/usr/local/anaconda2/envs/py36/bin/..//bin/x86_64-conda-linux-gnu-gcc -c   -D_REENTRANT -D_GNU_SOURCE --sysroot=/usr/local/anaconda2/envs/py36/bin/..//x86_64-conda-linux-gnu/sysroot -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -O2   -DVERSION=\"0.010\" -DXS_VERSION=\"0.010\" -fPIC --sysroot=/usr/local/anaconda2/envs/py36/bin/..//x86_64-conda-linux-gnu/sysroot "-I/usr/local/anaconda2/envs/py36/lib/5.26.2/x86_64-linux-thread-multi/CORE"   utf8_strict.c
+  LEONT/PerlIO-utf8_strict-0.010.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- NOT OK
+Running install for module 'PerlIO::utf8_strict'
+  LEONT/PerlIO-utf8_strict-0.010.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/PerlIO-utf8_strict-0.010-5
+  LEONT/PerlIO-utf8_strict-0.010.tar.gz
+  Has already been prepared
+  LEONT/PerlIO-utf8_strict-0.010.tar.gz
+  Could not make: Unknown error
+
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/IO-Compress-Brotli-0.004001-5
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  Has already been prepared
+Running make for M/MG/MGV/IO-Compress-Brotli-0.004001.tar.gz
+Warning: Prerequisite 'File::Slurper => 0' for 'MGV/IO-Compress-Brotli-0.004001.tar.gz' failed when processing 'LEONT/File-Slurper-0.014.tar.gz' with 'make_test => NO one dependency not OK (Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+cp lib/IO/Compress/Brotli.pm blib/lib/IO/Compress/Brotli.pm
+cp lib/IO/Uncompress/Brotli.pm blib/lib/IO/Uncompress/Brotli.pm
+cd brotli && CFLAGS=-fPIC `which gmake || echo make` lib
+gmake[1]: Entering directory `/home/sophia/.cpan/build/IO-Compress-Brotli-0.004001-5/brotli'
+mkdir -p bin/obj/c/common
+mkdir -p bin/obj/c/dec
+mkdir -p bin/obj/c/enc
+mkdir -p bin/obj/c/tools
+mkdir -p bin/tmp
+/usr/local/anaconda2/envs/py36/bin/..//bin/x86_64-conda-linux-gnu-gcc -fPIC -O2 -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /usr/local/anaconda2/envs/py36/include -Ic/include \
+        -c c/common/transform.c -o bin/obj/c/common/transform.o
+gmake[1]: Leaving directory `/home/sophia/.cpan/build/IO-Compress-Brotli-0.004001-5/brotli'
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- NOT OK
+Running install for module 'IO::Compress::Brotli'
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/IO-Compress-Brotli-0.004001-5
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  Has already been prepared
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  Could not make: Unknown error
+
+Running install for module 'IO::Uncompress::Brotli'
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/IO-Compress-Brotli-0.004001-5
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  Has already been prepared
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  Could not make: Unknown error
+
+Running install for module 'IO::Compress::Brotli'
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/IO-Compress-Brotli-0.004001-5
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  Has already been prepared
+  MGV/IO-Compress-Brotli-0.004001.tar.gz
+  Could not make: Unknown error
+
+Running install for module 'URI'
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/URI-5.19-5
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been prepared
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been made
+  SIMBABQUE/URI-5.19.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'URI::URL'
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/URI-5.19-5
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been prepared
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been made
+  SIMBABQUE/URI-5.19.tar.gz
+  Won't repeat unsuccessful test during this command
+  OALDERS/HTML-Parser-3.81.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTML-Parser-3.81-5
+  OALDERS/HTML-Parser-3.81.tar.gz
+  Has already been prepared
+Running make for O/OA/OALDERS/HTML-Parser-3.81.tar.gz
+Warning: Prerequisite 'HTTP::Headers => 0' for 'OALDERS/HTML-Parser-3.81.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.44.tar.gz' with 'make_test => NO 4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'URI => 0' for 'OALDERS/HTML-Parser-3.81.tar.gz' failed when processing 'SIMBABQUE/URI-5.19.tar.gz' with 'make_test => NO 2 dependencies missing (Test::Needs,Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'URI::URL => 0' for 'OALDERS/HTML-Parser-3.81.tar.gz' failed when processing 'SIMBABQUE/URI-5.19.tar.gz' with 'make_test => NO 2 dependencies missing (Test::Needs,Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+cp lib/HTML/PullParser.pm blib/lib/HTML/PullParser.pm
+cp lib/HTML/TokeParser.pm blib/lib/HTML/TokeParser.pm
+cp lib/HTML/LinkExtor.pm blib/lib/HTML/LinkExtor.pm
+cp lib/HTML/Filter.pm blib/lib/HTML/Filter.pm
+cp lib/HTML/Entities.pm blib/lib/HTML/Entities.pm
+cp lib/HTML/HeadParser.pm blib/lib/HTML/HeadParser.pm
+cp lib/HTML/Parser.pm blib/lib/HTML/Parser.pm
+Running Mkbootstrap for Parser ()
+chmod 644 "Parser.bs"
+"/usr/local/anaconda2/envs/py36/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Parser.bs blib/arch/auto/HTML/Parser/Parser.bs 644
+"/usr/local/anaconda2/envs/py36/bin/perl" "/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils/xsubpp"  -typemap '/usr/local/anaconda2/envs/py36/lib/5.26.2/ExtUtils/typemap' -typemap '/home/sophia/.cpan/build/HTML-Parser-3.81-5/typemap'  Parser.xs > Parser.xsc
+mv Parser.xsc Parser.c
+/usr/local/anaconda2/envs/py36/bin/..//bin/x86_64-conda-linux-gnu-gcc -c   -D_REENTRANT -D_GNU_SOURCE --sysroot=/usr/local/anaconda2/envs/py36/bin/..//x86_64-conda-linux-gnu/sysroot -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -O2   -DVERSION=\"3.81\" -DXS_VERSION=\"3.81\" -fPIC --sysroot=/usr/local/anaconda2/envs/py36/bin/..//x86_64-conda-linux-gnu/sysroot "-I/usr/local/anaconda2/envs/py36/lib/5.26.2/x86_64-linux-thread-multi/CORE"  -DMARKED_SECTION Parser.c
+  OALDERS/HTML-Parser-3.81.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- NOT OK
+Running install for module 'HTML::Parser'
+  OALDERS/HTML-Parser-3.81.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTML-Parser-3.81-5
+  OALDERS/HTML-Parser-3.81.tar.gz
+  Has already been prepared
+  OALDERS/HTML-Parser-3.81.tar.gz
+  Could not make: Unknown error
+
+Running install for module 'HTML::Tagset'
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTML-Tagset-3.20-5
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  Has already been prepared
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  Has already been made
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  Has already been tested successfully
+  PETDANCE/HTML-Tagset-3.20.tar.gz
+  Already tried without success
+Running install for module 'Test::Fatal'
+  RJBS/Test-Fatal-0.017.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Test-Fatal-0.017-5
+  RJBS/Test-Fatal-0.017.tar.gz
+  Has already been prepared
+  RJBS/Test-Fatal-0.017.tar.gz
+  Has already been made
+  RJBS/Test-Fatal-0.017.tar.gz
+  Has already been tested successfully
+  RJBS/Test-Fatal-0.017.tar.gz
+  Already tried without success
+  KENTNL/HTML-Tree-5.07.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTML-Tree-5.07-0
+  KENTNL/HTML-Tree-5.07.tar.gz
+  Has already been prepared
+Running Build for K/KE/KENTNL/HTML-Tree-5.07.tar.gz
+Warning: Prerequisite 'HTML::Entities => 0' for 'KENTNL/HTML-Tree-5.07.tar.gz' failed when processing 'OALDERS/HTML-Parser-3.81.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTML::Parser => 3.46' for 'KENTNL/HTML-Tree-5.07.tar.gz' failed when processing 'OALDERS/HTML-Parser-3.81.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+---- Unsatisfied dependencies detected during ----
+----       KENTNL/HTML-Tree-5.07.tar.gz       ----
+    HTML::FormatText [requires,optional]
+    LWP::UserAgent [requires,optional]
+Building HTML-Tree
+  KENTNL/HTML-Tree-5.07.tar.gz
+  ./Build -- OK
+Running Build test
+t/00-all_prereqs.t .. 
+Failed 2/44 subtests 
+t/00system.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
+t/assubs.t .......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/attributes.t ...... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 3/3 subtests 
+t/body.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 18/18 subtests 
+t/building.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 46/46 subtests 
+t/children.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 3/3 subtests 
+t/clonei.t .......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 3/3 subtests 
+t/comment.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 1/1 subtests 
+t/construct_tree.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 75/75 subtests 
+t/doctype.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 4/4 subtests 
+t/escape.t .......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 26/26 subtests 
+t/leaktest.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/oldparse.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 16/16 subtests 
+t/parents.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 123/123 subtests 
+t/parse.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 44/44 subtests 
+t/parsefile.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 4/4 subtests 
+t/refloop.t ......... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 8/8 subtests 
+t/split.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 444/444 subtests 
+t/subclass.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 2/2 subtests 
+t/tag-rendering.t ... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 11/11 subtests 
+t/unicode.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 11/11 subtests 
+t/whitespace.t ...... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/00-all_prereqs.t (Wstat: 0 Tests: 44 Failed: 2)
+  Failed tests:  26, 28
+t/00system.t      (Wstat: 512 Tests: 2 Failed: 2)
+  Failed tests:  1-2
+  Non-zero exit status: 2
+t/assubs.t        (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/attributes.t    (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 3 tests but ran 0.
+t/body.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 18 tests but ran 0.
+t/building.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 46 tests but ran 0.
+t/children.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 3 tests but ran 0.
+t/clonei.t        (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 3 tests but ran 0.
+t/comment.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 1 tests but ran 0.
+t/construct_tree.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 75 tests but ran 0.
+t/doctype.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 4 tests but ran 0.
+t/escape.t        (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 26 tests but ran 0.
+t/leaktest.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/oldparse.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 16 tests but ran 0.
+t/parents.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 123 tests but ran 0.
+t/parse.t         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 44 tests but ran 0.
+t/parsefile.t     (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 4 tests but ran 0.
+t/refloop.t       (Wstat: 65280 Tests: 1 Failed: 1)
+  Failed test:  1
+  Non-zero exit status: 255
+  Parse errors: Bad plan.  You planned 8 tests but ran 1.
+t/split.t         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 444 tests but ran 0.
+t/subclass.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 2 tests but ran 0.
+t/tag-rendering.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 11 tests but ran 0.
+t/unicode.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 11 tests but ran 0.
+t/whitespace.t    (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=23, Tests=47,  2 wallclock secs ( 0.08 usr  0.04 sys +  1.21 cusr  0.38 csys =  1.71 CPU)
+Result: FAIL
+  KENTNL/HTML-Tree-5.07.tar.gz
+2 dependencies missing (HTML::Entities,HTML::Parser); additionally test harness failed
+  ./Build test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports KENTNL/HTML-Tree-5.07.tar.gz
+Running install for module 'LWP::UserAgent'
+Checksum for /home/sophia/.cpan/sources/authors/id/S/SI/SIMBABQUE/libwww-perl-6.70.tar.gz ok
+Configuring S/SI/SIMBABQUE/libwww-perl-6.70.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for LWP
+Writing MYMETA.yml and MYMETA.json
+  SIMBABQUE/libwww-perl-6.70.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for S/SI/SIMBABQUE/libwww-perl-6.70.tar.gz
+---- Unsatisfied dependencies detected during ----
+----     SIMBABQUE/libwww-perl-6.70.tar.gz    ----
+    File::Listing [requires]
+    HTML::Entities [requires]
+    HTML::HeadParser [requires]
+    HTTP::CookieJar::LWP [requires]
+    HTTP::Cookies [requires]
+    HTTP::Daemon [build_requires]
+    HTTP::Date [requires]
+    HTTP::Negotiate [requires]
+    HTTP::Request [requires]
+    HTTP::Request::Common [requires]
+    HTTP::Response [requires]
+    HTTP::Status [requires]
+    LWP::MediaTypes [requires]
+    Net::HTTP [requires]
+    Test::LeakTrace [build_requires,optional]
+    Test::Needs [build_requires]
+    Test::RequiresInternet [build_requires]
+    URI [requires]
+    URI::Escape [requires]
+    WWW::RobotRules [requires]
+Running install for module 'File::Listing'
+Checksum for /home/sophia/.cpan/sources/authors/id/P/PL/PLICEASE/File-Listing-6.15.tar.gz ok
+Configuring P/PL/PLICEASE/File-Listing-6.15.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for File::Listing
+Writing MYMETA.yml and MYMETA.json
+  PLICEASE/File-Listing-6.15.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for P/PL/PLICEASE/File-Listing-6.15.tar.gz
+cp lib/File/Listing.pm blib/lib/File/Listing.pm
+Manifying 1 pod document
+  PLICEASE/File-Listing-6.15.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00_diag.t ....... ok
+t/file_listing.t .. ok
+All tests successful.
+Files=2, Tests=6,  3 wallclock secs ( 0.48 usr  0.08 sys +  2.25 cusr  0.15 csys =  2.96 CPU)
+Result: PASS
+  PLICEASE/File-Listing-6.15.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/File'
+Do not have write permissions on '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/File'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:720: pure_site_install] Error 13
+  PLICEASE/File-Listing-6.15.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+----
+  You may have to su to root to install the package
+  (Or you may want to run something like
+    o conf make_install_make_command 'sudo make'
+  to raise your permissions.Running install for module 'HTML::Entities'
+  OALDERS/HTML-Parser-3.81.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTML-Parser-3.81-5
+  OALDERS/HTML-Parser-3.81.tar.gz
+  Has already been prepared
+  OALDERS/HTML-Parser-3.81.tar.gz
+  Could not make: Unknown error
+
+Running install for module 'HTML::HeadParser'
+  OALDERS/HTML-Parser-3.81.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTML-Parser-3.81-5
+  OALDERS/HTML-Parser-3.81.tar.gz
+  Has already been prepared
+  OALDERS/HTML-Parser-3.81.tar.gz
+  Could not make: Unknown error
+
+Running install for module 'HTTP::CookieJar::LWP'
+Checksum for /home/sophia/.cpan/sources/authors/id/D/DA/DAGOLDEN/HTTP-CookieJar-0.014.tar.gz ok
+Configuring D/DA/DAGOLDEN/HTTP-CookieJar-0.014.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::CookieJar
+Writing MYMETA.yml and MYMETA.json
+  DAGOLDEN/HTTP-CookieJar-0.014.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for D/DA/DAGOLDEN/HTTP-CookieJar-0.014.tar.gz
+---- Unsatisfied dependencies detected during ----
+----   DAGOLDEN/HTTP-CookieJar-0.014.tar.gz   ----
+    Mozilla::PublicSuffix [requires,optional]
+    Test::Requires [build_requires]
+    URI [build_requires]
+Running install for module 'Test::Requires'
+Checksum for /home/sophia/.cpan/sources/authors/id/T/TO/TOKUHIROM/Test-Requires-0.11.tar.gz ok
+Configuring T/TO/TOKUHIROM/Test-Requires-0.11.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::Requires
+Writing MYMETA.yml and MYMETA.json
+  TOKUHIROM/Test-Requires-0.11.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for T/TO/TOKUHIROM/Test-Requires-0.11.tar.gz
+cp lib/Test/Requires.pm blib/lib/Test/Requires.pm
+Manifying 1 pod document
+  TOKUHIROM/Test-Requires-0.11.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00_compile.t ......... ok
+t/01_simple.t .......... ok
+t/02_no_plan.t ......... ok
+t/03_import_hashref.t .. skipped: Test requires module 'Acme::Unknown::Missing::Module::Name' but it's not found
+t/04_import_array.t .... skipped: Test requires module 'Acme::Unknown::Missing::Module::Name' but it's not found
+t/05_success.t ......... ok
+t/06_perlver.t ......... ok
+All tests successful.
+Files=7, Tests=15,  1 wallclock secs ( 0.05 usr  0.01 sys +  0.36 cusr  0.11 csys =  0.53 CPU)
+Result: PASS
+  TOKUHIROM/Test-Requires-0.11.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Test'
+Do not have write permissions on '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Test'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:713: pure_site_install] Error 13
+  TOKUHIROM/Test-Requires-0.11.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+----
+  You may have to su to root to install the package
+  (Or you may want to run something like
+    o conf make_install_make_command 'sudo make'
+  to raise your permissions.Running install for module 'URI'
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/URI-5.19-5
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been prepared
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been made
+  SIMBABQUE/URI-5.19.tar.gz
+  Won't repeat unsuccessful test during this command
+  DAGOLDEN/HTTP-CookieJar-0.014.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-CookieJar-0.014-5
+  DAGOLDEN/HTTP-CookieJar-0.014.tar.gz
+  Has already been prepared
+Running make for D/DA/DAGOLDEN/HTTP-CookieJar-0.014.tar.gz
+Warning: Prerequisite 'URI => 0' for 'DAGOLDEN/HTTP-CookieJar-0.014.tar.gz' failed when processing 'SIMBABQUE/URI-5.19.tar.gz' with 'make_test => NO 2 dependencies missing (Test::Needs,Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+---- Unsatisfied dependencies detected during ----
+----   DAGOLDEN/HTTP-CookieJar-0.014.tar.gz   ----
+    Mozilla::PublicSuffix [requires,optional]
+cp lib/HTTP/CookieJar/LWP.pm blib/lib/HTTP/CookieJar/LWP.pm
+cp lib/HTTP/CookieJar.pm blib/lib/HTTP/CookieJar.pm
+Manifying 2 pod documents
+  DAGOLDEN/HTTP-CookieJar-0.014.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-report-prereqs.t .. ok
+t/add.t ................ ok
+t/cookies_for.t ........ ok
+t/examples.t ........... ok
+t/parse.t .............. ok
+t/publicsuffix.t ....... skipped: Test requires module 'Mozilla::PublicSuffix' but it's not found
+t/save.t ............... ok
+t/sort.t ............... ok
+t/zzz-lwp.t ............ skipped: Test requires module 'HTTP::Request' but it's not found
+All tests successful.
+Files=9, Tests=49,  0 wallclock secs ( 0.05 usr  0.02 sys +  0.61 cusr  0.14 csys =  0.82 CPU)
+Result: PASS
+  DAGOLDEN/HTTP-CookieJar-0.014.tar.gz
+Tests succeeded but one dependency not OK (URI)
+  DAGOLDEN/HTTP-CookieJar-0.014.tar.gz
+  [dependencies] -- NA
+Running install for module 'Mozilla::PublicSuffix'
+Checksum for /home/sophia/.cpan/sources/authors/id/T/TO/TOMHUKINS/Mozilla-PublicSuffix-v1.0.6.tar.gz ok
+----   Unsatisfied dependencies detected during   ----
+---- TOMHUKINS/Mozilla-PublicSuffix-v1.0.6.tar.gz ----
+    URI [build_requires]
+Running install for module 'URI'
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/URI-5.19-5
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been prepared
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been made
+  SIMBABQUE/URI-5.19.tar.gz
+  Won't repeat unsuccessful test during this command
+  TOMHUKINS/Mozilla-PublicSuffix-v1.0.6.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Mozilla-PublicSuffix-v1.0.6-5
+Warning: Prerequisite 'URI => 0' for 'TOMHUKINS/Mozilla-PublicSuffix-v1.0.6.tar.gz' failed when processing 'SIMBABQUE/URI-5.19.tar.gz' with 'make_test => NO 2 dependencies missing (Test::Needs,Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Configuring T/TO/TOMHUKINS/Mozilla-PublicSuffix-v1.0.6.tar.gz with Build.PL
+Warning: No success on command[/usr/local/anaconda2/envs/py36/bin/perl Build.PL]
+  TOMHUKINS/Mozilla-PublicSuffix-v1.0.6.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Build.PL -- NOT OK
+Running install for module 'Mozilla::PublicSuffix'
+  TOMHUKINS/Mozilla-PublicSuffix-v1.0.6.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Mozilla-PublicSuffix-v1.0.6-5
+  TOMHUKINS/Mozilla-PublicSuffix-v1.0.6.tar.gz
+  '/usr/local/anaconda2/envs/py36/bin/perl Build.PL' returned status 512, not re-running
+Running install for module 'HTTP::Cookies'
+Checksum for /home/sophia/.cpan/sources/authors/id/O/OA/OALDERS/HTTP-Cookies-6.10.tar.gz ok
+Configuring O/OA/OALDERS/HTTP-Cookies-6.10.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::Cookies
+Writing MYMETA.yml and MYMETA.json
+  OALDERS/HTTP-Cookies-6.10.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for O/OA/OALDERS/HTTP-Cookies-6.10.tar.gz
+---- Unsatisfied dependencies detected during ----
+----     OALDERS/HTTP-Cookies-6.10.tar.gz     ----
+    HTTP::Headers::Util [requires]
+    HTTP::Request [requires]
+    HTTP::Response [build_requires]
+    URI [build_requires]
+Running install for module 'HTTP::Headers::Util'
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Message-6.44-5
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Request'
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Message-6.44-5
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Response'
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Message-6.44-5
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'URI'
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/URI-5.19-5
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been prepared
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been made
+  SIMBABQUE/URI-5.19.tar.gz
+  Won't repeat unsuccessful test during this command
+  OALDERS/HTTP-Cookies-6.10.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Cookies-6.10-5
+  OALDERS/HTTP-Cookies-6.10.tar.gz
+  Has already been prepared
+Running make for O/OA/OALDERS/HTTP-Cookies-6.10.tar.gz
+Warning: Prerequisite 'HTTP::Headers::Util => 6' for 'OALDERS/HTTP-Cookies-6.10.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.44.tar.gz' with 'make_test => NO 4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Request => 0' for 'OALDERS/HTTP-Cookies-6.10.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.44.tar.gz' with 'make_test => NO 4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Response => 0' for 'OALDERS/HTTP-Cookies-6.10.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.44.tar.gz' with 'make_test => NO 4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'URI => 0' for 'OALDERS/HTTP-Cookies-6.10.tar.gz' failed when processing 'SIMBABQUE/URI-5.19.tar.gz' with 'make_test => NO 2 dependencies missing (Test::Needs,Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+cp lib/HTTP/Cookies/Netscape.pm blib/lib/HTTP/Cookies/Netscape.pm
+cp lib/HTTP/Cookies/Microsoft.pm blib/lib/HTTP/Cookies/Microsoft.pm
+cp lib/HTTP/Cookies.pm blib/lib/HTTP/Cookies.pm
+Manifying 3 pod documents
+  OALDERS/HTTP-Cookies-6.10.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-report-prereqs.t .. ok
+t/10-original_spec.t ... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/11-rfc_2965.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/cookies.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/issue26.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/issue32.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/publicsuffix.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/10-original_spec.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/11-rfc_2965.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/cookies.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/issue26.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/issue32.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/publicsuffix.t     (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=7, Tests=1,  1 wallclock secs ( 0.04 usr  0.01 sys +  0.52 cusr  0.14 csys =  0.71 CPU)
+Result: FAIL
+  OALDERS/HTTP-Cookies-6.10.tar.gz
+one dependency not OK (URI); additionally test harness failed
+  /usr/local/anaconda2/envs/py36/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports OALDERS/HTTP-Cookies-6.10.tar.gz
+Running install for module 'HTTP::Daemon'
+Checksum for /home/sophia/.cpan/sources/authors/id/O/OA/OALDERS/HTTP-Daemon-6.16.tar.gz ok
+---- Unsatisfied dependencies detected during ----
+----      OALDERS/HTTP-Daemon-6.16.tar.gz     ----
+    Module::Build::Tiny [build_requires]
+Running install for module 'Module::Build::Tiny'
+Checksum for /home/sophia/.cpan/sources/authors/id/L/LE/LEONT/Module-Build-Tiny-0.046.tar.gz ok
+---- Unsatisfied dependencies detected during ----
+----   LEONT/Module-Build-Tiny-0.046.tar.gz   ----
+    ExtUtils::Config [build_requires]
+    ExtUtils::Helpers [build_requires]
+    ExtUtils::InstallPaths [build_requires]
+Running install for module 'ExtUtils::Config'
+Checksum for /home/sophia/.cpan/sources/authors/id/L/LE/LEONT/ExtUtils-Config-0.008.tar.gz ok
+Configuring L/LE/LEONT/ExtUtils-Config-0.008.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for ExtUtils::Config
+Writing MYMETA.yml and MYMETA.json
+  LEONT/ExtUtils-Config-0.008.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for L/LE/LEONT/ExtUtils-Config-0.008.tar.gz
+cp lib/ExtUtils/Config.pm blib/lib/ExtUtils/Config.pm
+Manifying 1 pod document
+  LEONT/ExtUtils-Config-0.008.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-compile.t ............ ok
+t/basics.t ................ ok
+t/release-pod-coverage.t .. skipped: these tests are for release candidate testing
+t/release-pod-syntax.t .... skipped: these tests are for release candidate testing
+All tests successful.
+Files=4, Tests=9,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.29 cusr  0.08 csys =  0.41 CPU)
+Result: PASS
+  LEONT/ExtUtils-Config-0.008.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils'
+Do not have write permissions on '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:726: pure_site_install] Error 13
+  LEONT/ExtUtils-Config-0.008.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+----
+  You may have to su to root to install the package
+  (Or you may want to run something like
+    o conf make_install_make_command 'sudo make'
+  to raise your permissions.Running install for module 'ExtUtils::Helpers'
+Checksum for /home/sophia/.cpan/sources/authors/id/L/LE/LEONT/ExtUtils-Helpers-0.026.tar.gz ok
+Configuring L/LE/LEONT/ExtUtils-Helpers-0.026.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for ExtUtils::Helpers
+Writing MYMETA.yml and MYMETA.json
+  LEONT/ExtUtils-Helpers-0.026.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for L/LE/LEONT/ExtUtils-Helpers-0.026.tar.gz
+cp lib/ExtUtils/Helpers/Windows.pm blib/lib/ExtUtils/Helpers/Windows.pm
+cp lib/ExtUtils/Helpers.pm blib/lib/ExtUtils/Helpers.pm
+cp lib/ExtUtils/Helpers/Unix.pm blib/lib/ExtUtils/Helpers/Unix.pm
+cp lib/ExtUtils/Helpers/VMS.pm blib/lib/ExtUtils/Helpers/VMS.pm
+Manifying 4 pod documents
+  LEONT/ExtUtils-Helpers-0.026.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/make_executable.t ... ok
+t/man_pagename.t ...... ok
+t/split_like_shell.t .. ok
+t/tilde.t ............. ok
+All tests successful.
+Files=4, Tests=30,  1 wallclock secs ( 0.03 usr  0.01 sys +  0.24 cusr  0.07 csys =  0.35 CPU)
+Result: PASS
+  LEONT/ExtUtils-Helpers-0.026.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 4 pod documents
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils'
+Do not have write permissions on '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:748: pure_site_install] Error 13
+  LEONT/ExtUtils-Helpers-0.026.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+----
+  You may have to su to root to install the package
+  (Or you may want to run something like
+    o conf make_install_make_command 'sudo make'
+  to raise your permissions.Running install for module 'ExtUtils::InstallPaths'
+Checksum for /home/sophia/.cpan/sources/authors/id/L/LE/LEONT/ExtUtils-InstallPaths-0.012.tar.gz ok
+Configuring L/LE/LEONT/ExtUtils-InstallPaths-0.012.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for ExtUtils::InstallPaths
+Writing MYMETA.yml and MYMETA.json
+  LEONT/ExtUtils-InstallPaths-0.012.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for L/LE/LEONT/ExtUtils-InstallPaths-0.012.tar.gz
+cp lib/ExtUtils/InstallPaths.pm blib/lib/ExtUtils/InstallPaths.pm
+Manifying 1 pod document
+  LEONT/ExtUtils-InstallPaths-0.012.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/destinations.t .. ok
+All tests successful.
+Files=1, Tests=111,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.10 cusr  0.03 csys =  0.17 CPU)
+Result: PASS
+  LEONT/ExtUtils-InstallPaths-0.012.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils'
+Do not have write permissions on '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:730: pure_site_install] Error 13
+  LEONT/ExtUtils-InstallPaths-0.012.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+----
+  You may have to su to root to install the package
+  (Or you may want to run something like
+    o conf make_install_make_command 'sudo make'
+  to raise your permissions.  LEONT/Module-Build-Tiny-0.046.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Module-Build-Tiny-0.046-5
+Configuring L/LE/LEONT/Module-Build-Tiny-0.046.tar.gz with Build.PL
+Creating new 'Build' script for 'Module-Build-Tiny' version '0.046'
+  LEONT/Module-Build-Tiny-0.046.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Build.PL -- OK
+Running Build for L/LE/LEONT/Module-Build-Tiny-0.046.tar.gz
+cp lib/Module/Build/Tiny.pm blib/lib/Module/Build/Tiny.pm
+  LEONT/Module-Build-Tiny-0.046.tar.gz
+  ./Build -- OK
+Running Build test
+t/simple.t .. ok
+All tests successful.
+Files=1, Tests=27,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.32 cusr  0.08 csys =  0.44 CPU)
+Result: PASS
+  LEONT/Module-Build-Tiny-0.046.tar.gz
+  ./Build test -- OK
+Running Build install
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Module/Build'
+Do not have write permissions on '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Module/Build'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at lib/Module/Build/Tiny.pm line 149.
+  LEONT/Module-Build-Tiny-0.046.tar.gz
+  ./Build install  -- NOT OK
+----
+  You may have to su to root to install the package
+  (Or you may want to run something like
+    o conf make_install_make_command 'sudo make'
+  to raise your permissions.  OALDERS/HTTP-Daemon-6.16.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Daemon-6.16-5
+Configuring O/OA/OALDERS/HTTP-Daemon-6.16.tar.gz with Build.PL
+Creating new 'Build' script for 'HTTP-Daemon' version '6.16'
+  OALDERS/HTTP-Daemon-6.16.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Build.PL -- OK
+Running Build for O/OA/OALDERS/HTTP-Daemon-6.16.tar.gz
+---- Unsatisfied dependencies detected during ----
+----      OALDERS/HTTP-Daemon-6.16.tar.gz     ----
+    HTTP::Request [requires]
+    HTTP::Response [requires]
+    HTTP::Status [requires]
+    Test::Needs [build_requires]
+Running install for module 'HTTP::Request'
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Message-6.44-5
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Response'
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Message-6.44-5
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Status'
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Message-6.44-5
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'Test::Needs'
+  HAARG/Test-Needs-0.002010.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Test-Needs-0.002010-5
+  HAARG/Test-Needs-0.002010.tar.gz
+  Has already been prepared
+  HAARG/Test-Needs-0.002010.tar.gz
+  Has already been made
+  HAARG/Test-Needs-0.002010.tar.gz
+  Won't repeat unsuccessful test during this command
+  OALDERS/HTTP-Daemon-6.16.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Daemon-6.16-5
+  OALDERS/HTTP-Daemon-6.16.tar.gz
+  Has already been prepared
+Running Build for O/OA/OALDERS/HTTP-Daemon-6.16.tar.gz
+Warning: Prerequisite 'HTTP::Request => 6' for 'OALDERS/HTTP-Daemon-6.16.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.44.tar.gz' with 'make_test => NO 4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Response => 6' for 'OALDERS/HTTP-Daemon-6.16.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.44.tar.gz' with 'make_test => NO 4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Status => 6' for 'OALDERS/HTTP-Daemon-6.16.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.44.tar.gz' with 'make_test => NO 4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'Test::Needs => 0' for 'OALDERS/HTTP-Daemon-6.16.tar.gz' failed when processing 'HAARG/Test-Needs-0.002010.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+cp lib/HTTP/Daemon.pm blib/lib/HTTP/Daemon.pm
+  OALDERS/HTTP-Daemon-6.16.tar.gz
+  ./Build -- OK
+Running Build test
+t/00-report-prereqs.t .. ok
+t/basic.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/chunked.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/content_length.t ..... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/encoding.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/basic.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/chunked.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/content_length.t   (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/encoding.t         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=5, Tests=1,  1 wallclock secs ( 0.02 usr  0.01 sys +  0.33 cusr  0.07 csys =  0.43 CPU)
+Result: FAIL
+  OALDERS/HTTP-Daemon-6.16.tar.gz
+one dependency not OK (Test::Needs); additionally test harness failed
+  ./Build test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports OALDERS/HTTP-Daemon-6.16.tar.gz
+Running install for module 'HTTP::Date'
+  OALDERS/HTTP-Date-6.05.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Date-6.05-5
+  OALDERS/HTTP-Date-6.05.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Date-6.05.tar.gz
+  Has already been made
+  OALDERS/HTTP-Date-6.05.tar.gz
+  Has already been tested successfully
+  OALDERS/HTTP-Date-6.05.tar.gz
+  Already tried without success
+Running install for module 'HTTP::Negotiate'
+Checksum for /home/sophia/.cpan/sources/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz ok
+Configuring G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTTP::Negotiate
+Writing MYMETA.yml and MYMETA.json
+  GAAS/HTTP-Negotiate-6.01.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+---- Unsatisfied dependencies detected during ----
+----      GAAS/HTTP-Negotiate-6.01.tar.gz     ----
+    HTTP::Headers [requires]
+Running install for module 'HTTP::Headers'
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Message-6.44-5
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Won't repeat unsuccessful test during this command
+  GAAS/HTTP-Negotiate-6.01.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Negotiate-6.01-5
+  GAAS/HTTP-Negotiate-6.01.tar.gz
+  Has already been prepared
+Running make for G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+Warning: Prerequisite 'HTTP::Headers => 6' for 'GAAS/HTTP-Negotiate-6.01.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.44.tar.gz' with 'make_test => NO 4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed'. Continuing, but chances to succeed are limited.
+cp lib/HTTP/Negotiate.pm blib/lib/HTTP/Negotiate.pm
+Manifying 1 pod document
+  GAAS/HTTP-Negotiate-6.01.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/negotiate.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/negotiate.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=1, Tests=0,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.02 cusr  0.00 csys =  0.06 CPU)
+Result: FAIL
+  GAAS/HTTP-Negotiate-6.01.tar.gz
+one dependency not OK (HTTP::Headers); additionally test harness failed
+  /usr/local/anaconda2/envs/py36/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports GAAS/HTTP-Negotiate-6.01.tar.gz
+Running install for module 'HTTP::Request'
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Message-6.44-5
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Request::Common'
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Message-6.44-5
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Response'
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Message-6.44-5
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTTP::Status'
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTTP-Message-6.44-5
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been prepared
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Has already been made
+  OALDERS/HTTP-Message-6.44.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'LWP::MediaTypes'
+  OALDERS/LWP-MediaTypes-6.04.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/LWP-MediaTypes-6.04-5
+  OALDERS/LWP-MediaTypes-6.04.tar.gz
+  Has already been prepared
+  OALDERS/LWP-MediaTypes-6.04.tar.gz
+  Has already been made
+  OALDERS/LWP-MediaTypes-6.04.tar.gz
+  Has already been tested successfully
+  OALDERS/LWP-MediaTypes-6.04.tar.gz
+  Already tried without success
+Running install for module 'Net::HTTP'
+Checksum for /home/sophia/.cpan/sources/authors/id/O/OA/OALDERS/Net-HTTP-6.22.tar.gz ok
+Configuring O/OA/OALDERS/Net-HTTP-6.22.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Net::HTTP
+Writing MYMETA.yml and MYMETA.json
+  OALDERS/Net-HTTP-6.22.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for O/OA/OALDERS/Net-HTTP-6.22.tar.gz
+---- Unsatisfied dependencies detected during ----
+----       OALDERS/Net-HTTP-6.22.tar.gz       ----
+    URI [requires]
+Running install for module 'URI'
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/URI-5.19-5
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been prepared
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been made
+  SIMBABQUE/URI-5.19.tar.gz
+  Won't repeat unsuccessful test during this command
+  OALDERS/Net-HTTP-6.22.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Net-HTTP-6.22-5
+  OALDERS/Net-HTTP-6.22.tar.gz
+  Has already been prepared
+Running make for O/OA/OALDERS/Net-HTTP-6.22.tar.gz
+Warning: Prerequisite 'URI => 0' for 'OALDERS/Net-HTTP-6.22.tar.gz' failed when processing 'SIMBABQUE/URI-5.19.tar.gz' with 'make_test => NO 2 dependencies missing (Test::Needs,Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+cp lib/Net/HTTP.pm blib/lib/Net/HTTP.pm
+cp lib/Net/HTTPS.pm blib/lib/Net/HTTPS.pm
+cp lib/Net/HTTP/Methods.pm blib/lib/Net/HTTP/Methods.pm
+cp lib/Net/HTTP/NB.pm blib/lib/Net/HTTP/NB.pm
+Manifying 4 pod documents
+  OALDERS/Net-HTTP-6.22.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-report-prereqs.t .. ok
+t/http-nb.t ............ 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 14/14 subtests 
+t/http.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/live-https.t ......... skipped: IO::Socket::SSL or Net::SSL not available
+t/live.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/socket-class.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/http-nb.t          (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 14 tests but ran 0.
+t/http.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/live.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/socket-class.t     (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=6, Tests=1,  1 wallclock secs ( 0.04 usr  0.02 sys +  0.52 cusr  0.15 csys =  0.73 CPU)
+Result: FAIL
+  OALDERS/Net-HTTP-6.22.tar.gz
+one dependency not OK (URI); additionally test harness failed
+  /usr/local/anaconda2/envs/py36/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports OALDERS/Net-HTTP-6.22.tar.gz
+Running install for module 'Test::Needs'
+  HAARG/Test-Needs-0.002010.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Test-Needs-0.002010-5
+  HAARG/Test-Needs-0.002010.tar.gz
+  Has already been prepared
+  HAARG/Test-Needs-0.002010.tar.gz
+  Has already been made
+  HAARG/Test-Needs-0.002010.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'Test::RequiresInternet'
+Checksum for /home/sophia/.cpan/sources/authors/id/M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz ok
+Configuring M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::RequiresInternet
+Writing MYMETA.yml and MYMETA.json
+  MALLEN/Test-RequiresInternet-0.05.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz
+cp lib/Test/RequiresInternet.pm blib/lib/Test/RequiresInternet.pm
+Manifying 1 pod document
+  MALLEN/Test-RequiresInternet-0.05.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00_load.t ............ ok
+t/01_getserv.t ......... ok
+t/02_multiple_hosts.t .. ok
+t/03_badhost.t ......... skipped: no host: foobar
+t/04_env.t ............. skipped: NO_NETWORK_TESTING
+t/05_badarg.t .......... ok
+t/06_badport.t ......... skipped: Could not find a port number for foobar
+All tests successful.
+Files=7, Tests=4,  1 wallclock secs ( 0.04 usr  0.01 sys +  0.41 cusr  0.14 csys =  0.60 CPU)
+Result: PASS
+  MALLEN/Test-RequiresInternet-0.05.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Test'
+Do not have write permissions on '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Test'
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:720: pure_site_install] Error 13
+  MALLEN/Test-RequiresInternet-0.05.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+----
+  You may have to su to root to install the package
+  (Or you may want to run something like
+    o conf make_install_make_command 'sudo make'
+  to raise your permissions.Running install for module 'URI'
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/URI-5.19-5
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been prepared
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been made
+  SIMBABQUE/URI-5.19.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'URI::Escape'
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/URI-5.19-5
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been prepared
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been made
+  SIMBABQUE/URI-5.19.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'WWW::RobotRules'
+Checksum for /home/sophia/.cpan/sources/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz ok
+Configuring G/GA/GAAS/WWW-RobotRules-6.02.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for WWW::RobotRules
+Writing MYMETA.yml and MYMETA.json
+  GAAS/WWW-RobotRules-6.02.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+---- Unsatisfied dependencies detected during ----
+----      GAAS/WWW-RobotRules-6.02.tar.gz     ----
+    URI [requires]
+Running install for module 'URI'
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/URI-5.19-5
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been prepared
+  SIMBABQUE/URI-5.19.tar.gz
+  Has already been made
+  SIMBABQUE/URI-5.19.tar.gz
+  Won't repeat unsuccessful test during this command
+  GAAS/WWW-RobotRules-6.02.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/WWW-RobotRules-6.02-5
+  GAAS/WWW-RobotRules-6.02.tar.gz
+  Has already been prepared
+Running make for G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+Warning: Prerequisite 'URI => 1.10' for 'GAAS/WWW-RobotRules-6.02.tar.gz' failed when processing 'SIMBABQUE/URI-5.19.tar.gz' with 'make_test => NO 2 dependencies missing (Test::Needs,Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+cp lib/WWW/RobotRules.pm blib/lib/WWW/RobotRules.pm
+cp lib/WWW/RobotRules/AnyDBM_File.pm blib/lib/WWW/RobotRules/AnyDBM_File.pm
+Manifying 2 pod documents
+  GAAS/WWW-RobotRules-6.02.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/rules-dbm.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/rules.t ...... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/rules-dbm.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/rules.t    (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=2, Tests=0,  0 wallclock secs ( 0.02 usr  0.00 sys +  0.02 cusr  0.01 csys =  0.05 CPU)
+Result: FAIL
+  GAAS/WWW-RobotRules-6.02.tar.gz
+one dependency not OK (URI); additionally test harness failed
+  /usr/local/anaconda2/envs/py36/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports GAAS/WWW-RobotRules-6.02.tar.gz
+  SIMBABQUE/libwww-perl-6.70.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/libwww-perl-6.70-5
+  SIMBABQUE/libwww-perl-6.70.tar.gz
+  Has already been prepared
+Running make for S/SI/SIMBABQUE/libwww-perl-6.70.tar.gz
+Warning: Prerequisite 'HTML::Entities => 0' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'OALDERS/HTML-Parser-3.81.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTML::HeadParser => 3.71' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'OALDERS/HTML-Parser-3.81.tar.gz' with 'make => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::CookieJar::LWP => 0' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'DAGOLDEN/HTTP-CookieJar-0.014.tar.gz' with 'make_test => NO one dependency not OK (URI)'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Cookies => 6' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'OALDERS/HTTP-Cookies-6.10.tar.gz' with 'make_test => NO one dependency not OK (URI); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Daemon => 6.12' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'OALDERS/HTTP-Daemon-6.16.tar.gz' with 'make_test => NO one dependency not OK (Test::Needs); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Negotiate => 6' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'GAAS/HTTP-Negotiate-6.01.tar.gz' with 'make_test => NO one dependency not OK (HTTP::Headers); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Request => 6.18' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.44.tar.gz' with 'make_test => NO 4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Request::Common => 6.18' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.44.tar.gz' with 'make_test => NO 4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Response => 6.18' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.44.tar.gz' with 'make_test => NO 4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTTP::Status => 6.18' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'OALDERS/HTTP-Message-6.44.tar.gz' with 'make_test => NO 4 dependencies missing (Clone,Test::Needs,URI,URI::URL); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'Net::HTTP => 6.18' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'OALDERS/Net-HTTP-6.22.tar.gz' with 'make_test => NO one dependency not OK (URI); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'Test::Needs => 0' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'HAARG/Test-Needs-0.002010.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'URI => 1.10' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'SIMBABQUE/URI-5.19.tar.gz' with 'make_test => NO 2 dependencies missing (Test::Needs,Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'URI::Escape => 0' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'SIMBABQUE/URI-5.19.tar.gz' with 'make_test => NO 2 dependencies missing (Test::Needs,Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'WWW::RobotRules => 6' for 'SIMBABQUE/libwww-perl-6.70.tar.gz' failed when processing 'GAAS/WWW-RobotRules-6.02.tar.gz' with 'make_test => NO one dependency not OK (URI); additionally test harness failed'. Continuing, but chances to succeed are limited.
+---- Unsatisfied dependencies detected during ----
+----     SIMBABQUE/libwww-perl-6.70.tar.gz    ----
+    Test::LeakTrace [build_requires,optional]
+cp lib/LWP/ConnCache.pm blib/lib/LWP/ConnCache.pm
+cp lib/LWP/Protocol/mailto.pm blib/lib/LWP/Protocol/mailto.pm
+cp lib/LWP/Protocol/cpan.pm blib/lib/LWP/Protocol/cpan.pm
+cp lib/LWP/Debug/TraceHTTP.pm blib/lib/LWP/Debug/TraceHTTP.pm
+cp lib/LWP/Protocol/file.pm blib/lib/LWP/Protocol/file.pm
+cp lib/LWP/Protocol/data.pm blib/lib/LWP/Protocol/data.pm
+cp lib/LWP/Authen/Ntlm.pm blib/lib/LWP/Authen/Ntlm.pm
+cp lib/LWP/Protocol/http.pm blib/lib/LWP/Protocol/http.pm
+cp lib/LWP/Simple.pm blib/lib/LWP/Simple.pm
+cp lib/LWP/MemberMixin.pm blib/lib/LWP/MemberMixin.pm
+cp lib/LWP/UserAgent.pm blib/lib/LWP/UserAgent.pm
+cp lib/LWP/Protocol/nntp.pm blib/lib/LWP/Protocol/nntp.pm
+cp lib/LWP/Authen/Basic.pm blib/lib/LWP/Authen/Basic.pm
+cp lwptut.pod blib/lib/lwptut.pod
+cp lib/LWP/Protocol/gopher.pm blib/lib/LWP/Protocol/gopher.pm
+cp lib/LWP/Protocol.pm blib/lib/LWP/Protocol.pm
+cp lib/LWP/Authen/Digest.pm blib/lib/LWP/Authen/Digest.pm
+cp lib/LWP/DebugFile.pm blib/lib/LWP/DebugFile.pm
+cp lib/LWP.pm blib/lib/LWP.pm
+cp lib/LWP/Protocol/nogo.pm blib/lib/LWP/Protocol/nogo.pm
+cp lib/LWP/RobotUA.pm blib/lib/LWP/RobotUA.pm
+cp lib/LWP/Debug.pm blib/lib/LWP/Debug.pm
+cp lib/LWP/Protocol/loopback.pm blib/lib/LWP/Protocol/loopback.pm
+cp lib/LWP/Protocol/ftp.pm blib/lib/LWP/Protocol/ftp.pm
+cp lwpcook.pod blib/lib/lwpcook.pod
+cp bin/lwp-download blib/script/lwp-download
+"/usr/local/anaconda2/envs/py36/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/lwp-download
+cp bin/lwp-dump blib/script/lwp-dump
+"/usr/local/anaconda2/envs/py36/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/lwp-dump
+cp bin/lwp-mirror blib/script/lwp-mirror
+"/usr/local/anaconda2/envs/py36/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/lwp-mirror
+cp bin/lwp-request blib/script/lwp-request
+"/usr/local/anaconda2/envs/py36/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/lwp-request
+Manifying 4 pod documents
+Manifying 11 pod documents
+  SIMBABQUE/libwww-perl-6.70.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t t/base/*.t t/base/protocols/*.t t/leak/*.t t/local/*.t t/robot/*.t
+t/00-report-prereqs.t .......... ok
+t/10-attrs.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/base/default_content_type.t .. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/base/protocols.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/base/protocols/nntp.t ........ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/base/proxy.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/base/proxy_request.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/base/simple.t ................ 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/base/ua.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/base/ua_handlers.t ........... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/leak/no_leak.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/local/autoload-get.t ......... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/local/autoload.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/local/cookie_jar.t ........... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 1/1 subtests 
+t/local/download_to_fh.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/local/get.t .................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/local/http.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/local/httpsub.t .............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/local/protosub.t ............. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/redirect.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/robot/ua-get.t ............... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/robot/ua.t ................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+
+Test Summary Report
+-------------------
+t/10-attrs.t                 (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/default_content_type.t (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/protocols.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/protocols/nntp.t      (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/proxy.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/proxy_request.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/simple.t              (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/ua.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/base/ua_handlers.t         (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/leak/no_leak.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/autoload-get.t       (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/autoload.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/cookie_jar.t         (Wstat: 65280 Tests: 1 Failed: 1)
+  Failed test:  1
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+t/local/download_to_fh.t     (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/get.t                (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/http.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/httpsub.t            (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/local/protosub.t           (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/redirect.t                 (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/robot/ua-get.t             (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/robot/ua.t                 (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+Files=22, Tests=2,  3 wallclock secs ( 0.08 usr  0.02 sys +  1.37 cusr  0.45 csys =  1.92 CPU)
+Result: FAIL
+  SIMBABQUE/libwww-perl-6.70.tar.gz
+3 dependencies missing (HTML::Entities,Test::Needs,URI); additionally test harness failed
+  /usr/local/anaconda2/envs/py36/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports SIMBABQUE/libwww-perl-6.70.tar.gz
+Running install for module 'Test::LeakTrace'
+Checksum for /home/sophia/.cpan/sources/authors/id/L/LE/LEEJO/Test-LeakTrace-0.17.tar.gz ok
+Configuring L/LE/LEEJO/Test-LeakTrace-0.17.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::LeakTrace
+Writing MYMETA.yml and MYMETA.json
+  LEEJO/Test-LeakTrace-0.17.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for L/LE/LEEJO/Test-LeakTrace-0.17.tar.gz
+cp lib/Test/LeakTrace/Script.pm blib/lib/Test/LeakTrace/Script.pm
+cp lib/Test/LeakTrace.pm blib/lib/Test/LeakTrace.pm
+cp lib/Test/LeakTrace/JA.pod blib/lib/Test/LeakTrace/JA.pod
+Running Mkbootstrap for LeakTrace ()
+chmod 644 "LeakTrace.bs"
+"/usr/local/anaconda2/envs/py36/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- LeakTrace.bs blib/arch/auto/Test/LeakTrace/LeakTrace.bs 644
+"/usr/local/anaconda2/envs/py36/bin/perl" "/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils/xsubpp"  -typemap '/usr/local/anaconda2/envs/py36/lib/5.26.2/ExtUtils/typemap'  LeakTrace.xs > LeakTrace.xsc
+mv LeakTrace.xsc LeakTrace.c
+/usr/local/anaconda2/envs/py36/bin/..//bin/x86_64-conda-linux-gnu-gcc -c   -D_REENTRANT -D_GNU_SOURCE --sysroot=/usr/local/anaconda2/envs/py36/bin/..//x86_64-conda-linux-gnu/sysroot -fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2 -O2   -DVERSION=\"0.17\" -DXS_VERSION=\"0.17\" -fPIC --sysroot=/usr/local/anaconda2/envs/py36/bin/..//x86_64-conda-linux-gnu/sysroot "-I/usr/local/anaconda2/envs/py36/lib/5.26.2/x86_64-linux-thread-multi/CORE"   LeakTrace.c
+  LEEJO/Test-LeakTrace-0.17.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- NOT OK
+Running install for module 'Test::LeakTrace'
+  LEEJO/Test-LeakTrace-0.17.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Test-LeakTrace-0.17-5
+  LEEJO/Test-LeakTrace-0.17.tar.gz
+  Has already been prepared
+  LEEJO/Test-LeakTrace-0.17.tar.gz
+  Could not make: Unknown error
+
+Running install for module 'HTML::FormatText'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/N/NI/NIGELM/HTML-Formatter-2.16.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/N/NI/NIGELM/CHECKSUMS
+Checksum for /home/sophia/.cpan/sources/authors/id/N/NI/NIGELM/HTML-Formatter-2.16.tar.gz ok
+Configuring N/NI/NIGELM/HTML-Formatter-2.16.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for HTML::Formatter
+Writing MYMETA.yml and MYMETA.json
+  NIGELM/HTML-Formatter-2.16.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for N/NI/NIGELM/HTML-Formatter-2.16.tar.gz
+---- Unsatisfied dependencies detected during ----
+----     NIGELM/HTML-Formatter-2.16.tar.gz    ----
+    File::Slurper [build_requires]
+    Font::Metrics::Courier [requires]
+    Font::Metrics::CourierBold [requires]
+    Font::Metrics::CourierBoldOblique [requires]
+    Font::Metrics::CourierOblique [requires]
+    Font::Metrics::Helvetica [requires]
+    Font::Metrics::HelveticaBold [requires]
+    Font::Metrics::HelveticaBoldOblique [requires]
+    Font::Metrics::HelveticaOblique [requires]
+    Font::Metrics::TimesBold [requires]
+    Font::Metrics::TimesBoldItalic [requires]
+    Font::Metrics::TimesItalic [requires]
+    Font::Metrics::TimesRoman [requires]
+    HTML::Element [requires]
+    HTML::TreeBuilder [requires]
+    Test::Warnings [build_requires]
+Running install for module 'File::Slurper'
+  LEONT/File-Slurper-0.014.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/File-Slurper-0.014-5
+  LEONT/File-Slurper-0.014.tar.gz
+  Has already been prepared
+  LEONT/File-Slurper-0.014.tar.gz
+  Has already been made
+  LEONT/File-Slurper-0.014.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'Font::Metrics::Courier'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/G/GA/GAAS/Font-AFM-1.20.tar.gz
+Checksum for /home/sophia/.cpan/sources/authors/id/G/GA/GAAS/Font-AFM-1.20.tar.gz ok
+Configuring G/GA/GAAS/Font-AFM-1.20.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Font::AFM
+Writing MYMETA.yml and MYMETA.json
+  GAAS/Font-AFM-1.20.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/perl Makefile.PL -- OK
+Running make for G/GA/GAAS/Font-AFM-1.20.tar.gz
+cp lib/Font/Metrics/TimesItalic.pm blib/lib/Font/Metrics/TimesItalic.pm
+cp lib/Font/Metrics/Courier.pm blib/lib/Font/Metrics/Courier.pm
+cp lib/Font/Metrics/HelveticaBold.pm blib/lib/Font/Metrics/HelveticaBold.pm
+cp lib/Font/Metrics/TimesRoman.pm blib/lib/Font/Metrics/TimesRoman.pm
+cp lib/Font/Metrics/TimesBold.pm blib/lib/Font/Metrics/TimesBold.pm
+cp lib/Font/Metrics/HelveticaOblique.pm blib/lib/Font/Metrics/HelveticaOblique.pm
+cp lib/Font/Metrics/Helvetica.pm blib/lib/Font/Metrics/Helvetica.pm
+cp lib/Font/Metrics/CourierOblique.pm blib/lib/Font/Metrics/CourierOblique.pm
+cp lib/Font/Metrics/HelveticaBoldOblique.pm blib/lib/Font/Metrics/HelveticaBoldOblique.pm
+cp lib/Font/Metrics/CourierBoldOblique.pm blib/lib/Font/Metrics/CourierBoldOblique.pm
+cp AFM.pm blib/lib/Font/AFM.pm
+cp lib/Font/Metrics/CourierBold.pm blib/lib/Font/Metrics/CourierBold.pm
+cp lib/Font/Metrics/TimesBoldItalic.pm blib/lib/Font/Metrics/TimesBoldItalic.pm
+Manifying 1 pod document
+  GAAS/Font-AFM-1.20.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/afm.t .... skipped: Can't find required font
+t/times.t .. ok
+All tests successful.
+Files=2, Tests=2,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.01 cusr  0.01 csys =  0.06 CPU)
+Result: PASS
+  GAAS/Font-AFM-1.20.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make test -- OK
+Running make install
+Manifying 1 pod document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ERROR: Can't create '/usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Font'
+mkdir /usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/Font: Permission denied at /usr/local/anaconda2/envs/py36/lib/site_perl/5.26.2/ExtUtils/Install.pm line 477.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ at -e line 1.
+make: *** [Makefile:710: pure_site_install] Error 13
+  GAAS/Font-AFM-1.20.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make install  -- NOT OK
+Running install for module 'Font::Metrics::CourierBold'
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Font-AFM-1.20-0
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been prepared
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been made
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been tested successfully
+  GAAS/Font-AFM-1.20.tar.gz
+  Already tried without success
+Running install for module 'Font::Metrics::CourierBoldOblique'
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Font-AFM-1.20-0
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been prepared
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been made
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been tested successfully
+  GAAS/Font-AFM-1.20.tar.gz
+  Already tried without success
+Running install for module 'Font::Metrics::CourierOblique'
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Font-AFM-1.20-0
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been prepared
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been made
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been tested successfully
+  GAAS/Font-AFM-1.20.tar.gz
+  Already tried without success
+Running install for module 'Font::Metrics::Helvetica'
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Font-AFM-1.20-0
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been prepared
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been made
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been tested successfully
+  GAAS/Font-AFM-1.20.tar.gz
+  Already tried without success
+Running install for module 'Font::Metrics::HelveticaBold'
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Font-AFM-1.20-0
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been prepared
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been made
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been tested successfully
+  GAAS/Font-AFM-1.20.tar.gz
+  Already tried without success
+Running install for module 'Font::Metrics::HelveticaBoldOblique'
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Font-AFM-1.20-0
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been prepared
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been made
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been tested successfully
+  GAAS/Font-AFM-1.20.tar.gz
+  Already tried without success
+Running install for module 'Font::Metrics::HelveticaOblique'
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Font-AFM-1.20-0
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been prepared
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been made
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been tested successfully
+  GAAS/Font-AFM-1.20.tar.gz
+  Already tried without success
+Running install for module 'Font::Metrics::TimesBold'
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Font-AFM-1.20-0
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been prepared
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been made
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been tested successfully
+  GAAS/Font-AFM-1.20.tar.gz
+  Already tried without success
+Running install for module 'Font::Metrics::TimesBoldItalic'
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Font-AFM-1.20-0
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been prepared
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been made
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been tested successfully
+  GAAS/Font-AFM-1.20.tar.gz
+  Already tried without success
+Running install for module 'Font::Metrics::TimesItalic'
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Font-AFM-1.20-0
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been prepared
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been made
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been tested successfully
+  GAAS/Font-AFM-1.20.tar.gz
+  Already tried without success
+Running install for module 'Font::Metrics::TimesRoman'
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Font-AFM-1.20-0
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been prepared
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been made
+  GAAS/Font-AFM-1.20.tar.gz
+  Has already been tested successfully
+  GAAS/Font-AFM-1.20.tar.gz
+  Already tried without success
+Running install for module 'HTML::Element'
+  KENTNL/HTML-Tree-5.07.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTML-Tree-5.07-0
+  KENTNL/HTML-Tree-5.07.tar.gz
+  Has already been prepared
+  KENTNL/HTML-Tree-5.07.tar.gz
+  Has already been made
+  KENTNL/HTML-Tree-5.07.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTML::TreeBuilder'
+  KENTNL/HTML-Tree-5.07.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTML-Tree-5.07-0
+  KENTNL/HTML-Tree-5.07.tar.gz
+  Has already been prepared
+  KENTNL/HTML-Tree-5.07.tar.gz
+  Has already been made
+  KENTNL/HTML-Tree-5.07.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'Test::Warnings'
+  ETHER/Test-Warnings-0.031.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/Test-Warnings-0.031-5
+  ETHER/Test-Warnings-0.031.tar.gz
+  Has already been prepared
+  ETHER/Test-Warnings-0.031.tar.gz
+  Has already been made
+  ETHER/Test-Warnings-0.031.tar.gz
+  Won't repeat unsuccessful test during this command
+  NIGELM/HTML-Formatter-2.16.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTML-Formatter-2.16-0
+  NIGELM/HTML-Formatter-2.16.tar.gz
+  Has already been prepared
+Running make for N/NI/NIGELM/HTML-Formatter-2.16.tar.gz
+Warning: Prerequisite 'File::Slurper => 0' for 'NIGELM/HTML-Formatter-2.16.tar.gz' failed when processing 'LEONT/File-Slurper-0.014.tar.gz' with 'make_test => NO one dependency not OK (Test::Warnings); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTML::Element => 3.15' for 'NIGELM/HTML-Formatter-2.16.tar.gz' failed when processing 'KENTNL/HTML-Tree-5.07.tar.gz' with 'make_test => NO 2 dependencies missing (HTML::Entities,HTML::Parser); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'HTML::TreeBuilder => 0' for 'NIGELM/HTML-Formatter-2.16.tar.gz' failed when processing 'KENTNL/HTML-Tree-5.07.tar.gz' with 'make_test => NO 2 dependencies missing (HTML::Entities,HTML::Parser); additionally test harness failed'. Continuing, but chances to succeed are limited.
+Warning: Prerequisite 'Test::Warnings => 0' for 'NIGELM/HTML-Formatter-2.16.tar.gz' failed when processing 'ETHER/Test-Warnings-0.031.tar.gz' with 'make_test => NO'. Continuing, but chances to succeed are limited.
+cp lib/HTML/FormatMarkdown.pm blib/lib/HTML/FormatMarkdown.pm
+cp lib/HTML/Formatter.pm blib/lib/HTML/Formatter.pm
+cp lib/HTML/FormatText.pm blib/lib/HTML/FormatText.pm
+cp lib/HTML/FormatRTF.pm blib/lib/HTML/FormatRTF.pm
+cp lib/HTML/FormatPS.pm blib/lib/HTML/FormatPS.pm
+Manifying 5 pod documents
+  NIGELM/HTML-Formatter-2.16.tar.gz
+  /usr/local/anaconda2/envs/py36/bin/make -- OK
+Running make test
+PERL_DL_NONLAZY=1 "/usr/local/anaconda2/envs/py36/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00-compile.t ............... 
+Dubious, test returned 5 (wstat 1280, 0x500)
+Failed 5/5 subtests 
+t/00-report-prereqs.t ........ ok
+t/01_ps.t .................... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 2/4 subtests 
+t/02_rtf.t ................... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 2/4 subtests 
+t/03_text.t .................. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 2/4 subtests 
+t/04_md.t .................... 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 2/4 subtests 
+t/author-critic.t ............ skipped: these tests are for testing by the author
+t/author-eol.t ............... skipped: these tests are for testing by the author
+t/author-no-tabs.t ........... skipped: these tests are for testing by the author
+t/author-pod-spell.t ......... skipped: these tests are for testing by the author
+t/author-pod-syntax.t ........ skipped: these tests are for testing by the author
+t/author-portability.t ....... skipped: these tests are for testing by the author
+t/author-synopsis.t .......... skipped: these tests are for testing by the author
+t/release-dist-manifest.t .... skipped: these tests are for release candidate testing
+t/release-distmeta.t ......... skipped: these tests are for release candidate testing
+t/release-has-version.t ...... skipped: these tests are for release candidate testing
+t/release-minimum-version.t .. skipped: these tests are for release candidate testing
+t/release-unused-vars.t ...... skipped: these tests are for release candidate testing
+t/rt111783.t ................. 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/rt69426.t .................. 
+Dubious, test returned 255 (wstat 65280, 0xff00)
+Failed 4/5 subtests 
+
+Test Summary Report
+-------------------
+t/00-compile.t             (Wstat: 1280 Tests: 5 Failed: 5)
+  Failed tests:  1-5
+  Non-zero exit status: 5
+t/01_ps.t                  (Wstat: 65280 Tests: 4 Failed: 2)
+  Failed tests:  1-2
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+t/02_rtf.t                 (Wstat: 65280 Tests: 4 Failed: 2)
+  Failed tests:  1-2
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+t/03_text.t                (Wstat: 65280 Tests: 4 Failed: 2)
+  Failed tests:  1-2
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+t/04_md.t                  (Wstat: 65280 Tests: 4 Failed: 2)
+  Failed tests:  1-2
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+t/rt111783.t               (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/rt69426.t                (Wstat: 65280 Tests: 5 Failed: 4)
+  Failed tests:  1-4
+  Non-zero exit status: 255
+  Parse errors: No plan found in TAP output
+Files=20, Tests=27,  1 wallclock secs ( 0.06 usr  0.03 sys +  0.65 cusr  0.28 csys =  1.02 CPU)
+Result: FAIL
+  NIGELM/HTML-Formatter-2.16.tar.gz
+one dependency not OK (Test::Warnings); additionally test harness failed
+  /usr/local/anaconda2/envs/py36/bin/make test -- NOT OK
+//hint// to see the cpan-testers results for installing this module, try:
+  reports NIGELM/HTML-Formatter-2.16.tar.gz
+Running install for module 'LWP::UserAgent'
+  SIMBABQUE/libwww-perl-6.70.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/libwww-perl-6.70-5
+  SIMBABQUE/libwww-perl-6.70.tar.gz
+  Has already been prepared
+  SIMBABQUE/libwww-perl-6.70.tar.gz
+  Has already been made
+  SIMBABQUE/libwww-perl-6.70.tar.gz
+  Won't repeat unsuccessful test during this command
+Running install for module 'HTML::FormatText'
+  NIGELM/HTML-Formatter-2.16.tar.gz
+  Has already been unwrapped into directory /home/sophia/.cpan/build/HTML-Formatter-2.16-0
+  NIGELM/HTML-Formatter-2.16.tar.gz
+  Has already been prepared
+  NIGELM/HTML-Formatter-2.16.tar.gz
+  Has already been made
+  NIGELM/HTML-Formatter-2.16.tar.gz
+  Won't repeat unsuccessful test during this command
